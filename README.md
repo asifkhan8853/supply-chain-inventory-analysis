@@ -143,6 +143,7 @@ The SQL analysis includes:
 
 
 An interactive Power BI dashboard was created to monitor:
+![Supply Chain Dashboard](Documentation/Supply_Chain_Dashboard.png)
 
 
 
