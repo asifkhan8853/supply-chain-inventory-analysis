@@ -1,0 +1,106 @@
+SUPPLY CHAIN & INVENTORY ANALYSIS
+PROJECT INSIGHTS
+
+DATASET OVERVIEW
+----------------
+Total Orders: 550
+Suppliers: 9
+Products: 30
+Warehouses: 5
+Order Date Range: 01-Jan-2025 to 24-Feb-2026
+
+
+KEY KPIs
+--------
+Total Order Value: 465.43M
+Total Pending Quantity: ~30K
+Total Stock Level: ~87K
+
+
+ORDER STATUS ANALYSIS
+---------------------
+Delivered: 375 orders (68.2%)
+Partially Delivered: 99 orders (18.0%)
+Cancelled: 38 orders (6.9%)
+In Transit: 38 orders (6.9%)
+
+Key Insight:
+68.2% of orders were delivered successfully, while 18.0% were
+partially delivered. Another 13.8% were either cancelled or still
+in transit, highlighting opportunities to improve order fulfillment
+and delivery performance.
+
+
+BUSINESS AREAS ANALYZED
+-----------------------
+1. Supplier Performance
+2. Order Status Distribution
+3. Warehouse-wise Inventory
+4. Product-wise Pending Quantity
+5. Monthly Order Value Trend
+6. Supplier Delivery Performance
+7. Low Stock / Reorder Analysis
+8. Top Products by Order Value
+
+
+TOOLS USED
+----------
+Excel
+SQL Server
+Power BI
+Git & GitHub
+
+
+SQL ANALYSIS
+------------
+- Imported and cleaned supply chain data in SQL Server.
+- Created a structured SupplyChainInventory table.
+- Validated 550 unique orders.
+- Analyzed supplier performance and delivery variance.
+- Analyzed warehouse inventory levels.
+- Identified products with high pending quantities.
+- Analyzed monthly order value trends.
+- Identified low-stock and reorder-level inventory.
+- Analyzed top products by order value.
+
+
+POWER BI DASHBOARD
+------------------
+Created an interactive Supply Chain & Inventory Analysis Dashboard
+with:
+
+- KPI Cards
+- Order Status Distribution
+- Warehouse-wise Inventory
+- Product-wise Pending Quantity
+- Monthly Order Value Trend
+- Supplier Delivery Performance
+- Supplier, Warehouse and Category slicers
+
+
+DASHBOARD FEATURES
+------------------
+- Interactive filtering
+- KPI monitoring
+- Inventory analysis
+- Order fulfillment analysis
+- Supplier performance analysis
+- Delivery performance monitoring
+- Business-focused visualizations
+
+
+PORTFOLIO SUMMARY
+-----------------
+Built an end-to-end Supply Chain & Inventory Analysis project using
+Excel, SQL Server and Power BI. Analyzed 550 supply chain orders across
+9 suppliers, 30 products and 5 warehouses. Developed an interactive
+Power BI dashboard to monitor order fulfillment, inventory levels,
+pending quantities, supplier performance and delivery trends.
+
+
+KEY BUSINESS FINDING
+--------------------
+The analysis showed that 68.2% of orders were delivered, while 18.0%
+were partially delivered and 13.8% were cancelled or still in transit.
+This indicates potential opportunities to improve fulfillment,
+inventory planning and supplier delivery performance.

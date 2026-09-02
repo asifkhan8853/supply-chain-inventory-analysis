@@ -1,0 +1,556 @@
+Order ID,Order Date,Supplier,Product,Category,Warehouse,City,Quantity Ordered,Quantity Received,Unit Cost (INR),Expected Delivery Days,Actual Delivery Days,Stock Level,Reorder Level,Order Status,Pending Quantity,Delivery Variance,Order Value (INR),Inventory Status
+ORD00001,24-11-2025,Zenith Supply,Smartphone,Electronics,WH-South-02,Hyderabad,96,96,13572.72,13,17,16,94,Delivered,0,4,1302981.12,Reorder Needed
+ORD00002,16-01-2025,Mahindra Logistics,Laptop,Electronics,WH-Central-04,Lucknow,38,38,10628.92,14,18,301,97,Delivered,0,4,403898.96,Overstocked
+ORD00003,23-05-2025,Om Logistics,Laptop,Electronics,WH-East-01,Chennai,104,104,4817.27,8,7,183,52,Delivered,0,-1,500996.08,Overstocked
+ORD00004,26-06-2025,Apex Logistics,Car Battery,Automotive,WH-West-03,Jaipur,88,88,4389.77,9,8,316,146,Delivered,0,-1,386299.76,Overstocked
+ORD00005,05-07-2025,Nexus Global,Brake Pads,Automotive,WH-North-01,Hyderabad,420,223,1586.49,4,4,232,75,Partially Delivered,197,0,666325.8,Overstocked
+ORD00006,22-11-2025,FastTrack Corp,Air Fryer,Home & Kitchen,WH-East-01,Hyderabad,368,368,2054.8,13,12,273,61,Delivered,0,-1,756166.4,Overstocked
+ORD00007,09-01-2026,Delhivery Direct,Denim Jeans,Apparel,WH-West-03,Chennai,498,498,1534,11,11,28,147,Delivered,0,0,763932,Reorder Needed
+ORD00008,28-04-2025,Om Logistics,Wireless Headphones,Electronics,WH-East-01,Delhi,133,133,16540.69,12,13,202,103,Delivered,0,1,2199911.77,Optimal
+ORD00009,26-11-2025,Zenith Supply,Protein Powder,FMCG,WH-South-02,Hyderabad,406,0,851.71,7,9,185,91,In Transit,406,2,345794.26,Overstocked
+ORD00010,23-04-2025,Delhivery Direct,Track Pants,Apparel,WH-North-01,Mumbai,465,355,552.85,13,13,32,116,Partially Delivered,110,0,257075.25,Reorder Needed
+ORD00011,17-07-2025,Delhivery Direct,Shampoo Bottle,FMCG,WH-Central-04,Chennai,308,308,1225.97,3,2,136,108,Delivered,0,-1,377598.76,Optimal
+ORD00012,29-01-2026,Zenith Supply,Mixer Grinder,Home & Kitchen,WH-West-03,Bengaluru,257,0,815.25,14,14,91,137,Cancelled,257,0,209519.25,Reorder Needed
+ORD00013,17-09-2025,Zenith Supply,Tablet,Electronics,WH-Central-04,Lucknow,126,0,3767.7,5,9,271,158,Cancelled,126,4,474730.2,Optimal
+ORD00014,01-01-2025,Delhivery Direct,Car Battery,Automotive,WH-North-01,Delhi,500,500,1888.22,7,7,290,152,Delivered,0,0,944110,Optimal
+ORD00015,10-02-2025,Delhivery Direct,Tablet,Electronics,WH-North-01,Jaipur,417,0,3312.78,13,16,135,61,Cancelled,417,3,1381429.26,Overstocked
+ORD00016,28-09-2025,Mahindra Logistics,LED Headlights,Automotive,WH-Central-04,Hyderabad,390,390,1678.04,13,14,231,106,Delivered,0,1,654435.6,Overstocked
+ORD00017,03-03-2025,Nexus Global,Denim Jeans,Apparel,WH-East-01,Mumbai,326,326,1374.75,12,12,30,130,Delivered,0,0,448168.5,Reorder Needed
+ORD00018,28-04-2025,FastTrack Corp,Smartphone,Electronics,WH-North-01,Jaipur,146,146,5878.42,10,10,292,132,Delivered,0,0,858249.32,Overstocked
+ORD00019,23-10-2025,Delhivery Direct,Protein Powder,FMCG,WH-West-03,Hyderabad,73,73,271.16,9,10,27,99,Delivered,0,1,19794.68,Reorder Needed
+ORD00020,11-12-2025,Om Logistics,Smartphone,Electronics,WH-East-01,Delhi,152,152,4418.71,11,14,142,63,Delivered,0,3,671643.92,Overstocked
+ORD00021,25-08-2025,Delhivery Direct,Cotton T-Shirt,Apparel,WH-Central-04,Delhi,50,0,1556.47,11,9,121,158,Cancelled,50,-2,77823.5,Reorder Needed
+ORD00022,27-03-2025,Delhivery Direct,Olive Oil,FMCG,WH-South-02,Kolkata,487,0,223.29,9,7,232,73,Cancelled,487,-2,108742.23,Overstocked
+ORD00023,27-05-2025,TCI Express,Almond Pack,FMCG,WH-West-03,Bengaluru,122,122,520.88,3,7,29,80,Delivered,0,4,63547.36,Reorder Needed
+ORD00024,26-01-2025,TCI Express,LED Headlights,Automotive,WH-Central-04,Bengaluru,54,54,4339.19,4,4,120,48,Delivered,0,0,234316.26,Overstocked
+ORD00025,26-07-2025,Mahindra Logistics,Bluetooth Speaker,Electronics,WH-Central-04,Lucknow,45,45,11605.61,9,13,104,73,Delivered,0,4,522252.45,Optimal
+ORD00026,09-12-2025,Zenith Supply,Air Fryer,Home & Kitchen,WH-West-03,Bengaluru,368,0,3833.85,10,11,37,159,In Transit,368,1,1410856.8,Reorder Needed
+ORD00027,05-01-2025,Nexus Global,Shampoo Bottle,FMCG,WH-North-01,Jaipur,134,0,782.36,5,6,125,152,In Transit,134,1,104836.24,Reorder Needed
+ORD00028,09-07-2025,Delhivery Direct,Air Fryer,Home & Kitchen,WH-Central-04,Chennai,338,338,5424.11,13,17,283,144,Delivered,0,4,1833349.18,Optimal
+ORD00029,03-06-2025,Zenith Supply,Laptop,Electronics,WH-North-01,Delhi,405,405,10494.16,7,7,175,131,Delivered,0,0,4250134.8,Optimal
+ORD00030,15-04-2025,Delhivery Direct,Induction Cooktop,Home & Kitchen,WH-East-01,Mumbai,72,72,3781.14,7,5,66,138,Delivered,0,-2,272242.08,Reorder Needed
+ORD00031,23-11-2025,Delhivery Direct,Air Fryer,Home & Kitchen,WH-Central-04,Kolkata,312,312,845.45,4,4,189,146,Delivered,0,0,263780.4,Optimal
+ORD00032,26-10-2025,Om Logistics,Brake Pads,Automotive,WH-South-02,Mumbai,182,182,1895.07,3,4,52,71,Delivered,0,1,344902.74,Reorder Needed
+ORD00033,01-07-2025,BlueDart Suppliers,LED Headlights,Automotive,WH-South-02,Bengaluru,434,434,3724.16,9,7,170,158,Delivered,0,-2,1616285.44,Optimal
+ORD00034,05-02-2026,Mahindra Logistics,Almond Pack,FMCG,WH-East-01,Bengaluru,428,184,1026.6,9,7,235,65,Partially Delivered,244,-2,439384.8,Overstocked
+ORD00035,29-06-2025,Mahindra Logistics,Air Fryer,Home & Kitchen,WH-North-01,Hyderabad,229,229,2342.83,4,4,204,105,Delivered,0,0,536508.07,Optimal
+ORD00036,14-12-2025,Apex Logistics,Car Battery,Automotive,WH-North-01,Chennai,116,116,2780.42,7,5,176,95,Delivered,0,-2,322528.72,Optimal
+ORD00037,09-01-2026,TCI Express,Water Purifier,Home & Kitchen,WH-North-01,Kolkata,485,485,3509.96,7,5,266,40,Delivered,0,-2,1702330.6,Overstocked
+ORD00038,17-02-2026,Mahindra Logistics,Air Filter,Automotive,WH-East-01,Kolkata,60,60,4290.39,8,9,153,55,Delivered,0,1,257423.4,Overstocked
+ORD00039,17-09-2025,Om Logistics,Electric Kettle,Home & Kitchen,WH-East-01,Kolkata,381,381,2189.58,5,5,194,160,Delivered,0,0,834229.98,Optimal
+ORD00040,13-12-2025,Zenith Supply,Track Pants,Apparel,WH-West-03,Jaipur,451,451,350.75,7,7,310,114,Delivered,0,0,158188.25,Overstocked
+ORD00041,02-12-2025,Delhivery Direct,Water Purifier,Home & Kitchen,WH-West-03,Hyderabad,286,286,3023.98,14,14,263,76,Delivered,0,0,864858.28,Overstocked
+ORD00042,06-12-2025,Nexus Global,Car Battery,Automotive,WH-South-02,Chennai,140,140,3706.91,5,3,312,100,Delivered,0,-2,518967.4,Overstocked
+ORD00043,29-01-2026,Om Logistics,Smartwatch,Electronics,WH-Central-04,Hyderabad,392,392,12898.75,10,12,2,123,Delivered,0,2,5056310,Reorder Needed
+ORD00044,20-01-2026,Mahindra Logistics,Smartwatch,Electronics,WH-South-02,Jaipur,262,262,2043.67,6,5,237,142,Delivered,0,-1,535441.54,Optimal
+ORD00045,08-12-2025,FastTrack Corp,Wiper Blades,Automotive,WH-West-03,Lucknow,442,272,3349.02,11,13,81,97,Partially Delivered,170,2,1480266.84,Reorder Needed
+ORD00046,16-01-2026,Zenith Supply,Olive Oil,FMCG,WH-South-02,Chennai,417,417,1122.09,10,10,146,49,Delivered,0,0,467911.53,Overstocked
+ORD00047,01-05-2025,FastTrack Corp,Cookware Set,Home & Kitchen,WH-Central-04,Delhi,95,95,1508.9,9,9,212,48,Delivered,0,0,143345.5,Overstocked
+ORD00048,28-07-2025,Delhivery Direct,Induction Cooktop,Home & Kitchen,WH-West-03,Mumbai,130,87,4714.59,9,7,3,101,Partially Delivered,43,-2,612896.7,Reorder Needed
+ORD00049,30-06-2025,Om Logistics,Water Purifier,Home & Kitchen,WH-Central-04,Jaipur,434,434,3635.29,6,9,248,95,Delivered,0,3,1577715.86,Overstocked
+ORD00050,15-01-2025,Om Logistics,Detergent Pack,FMCG,WH-South-02,Ahmedabad,495,495,309.53,12,16,303,90,Delivered,0,4,153217.35,Overstocked
+ORD00051,16-10-2025,Om Logistics,Smartphone,Electronics,WH-South-02,Ahmedabad,118,118,2044.78,9,10,172,81,Delivered,0,1,241284.04,Overstocked
+ORD00052,25-01-2026,Om Logistics,Detergent Pack,FMCG,WH-East-01,Delhi,265,0,174.23,11,9,114,84,Cancelled,265,-2,46170.95,Optimal
+ORD00053,29-11-2025,Apex Logistics,Tablet,Electronics,WH-North-01,Hyderabad,127,127,15299.04,12,12,58,100,Delivered,0,0,1942978.08,Reorder Needed
+ORD00054,16-10-2025,Zenith Supply,Running Shoes,Apparel,WH-East-01,Bengaluru,335,141,1473.41,14,13,55,79,Partially Delivered,194,-1,493592.35,Reorder Needed
+ORD00055,24-10-2025,Om Logistics,Wireless Headphones,Electronics,WH-West-03,Hyderabad,63,63,11147.24,13,13,154,138,Delivered,0,0,702276.12,Optimal
+ORD00056,17-12-2025,Apex Logistics,Engine Oil,Automotive,WH-East-01,Jaipur,244,244,3112.24,4,8,215,41,Delivered,0,4,759386.56,Overstocked
+ORD00057,08-09-2025,FastTrack Corp,Smartwatch,Electronics,WH-West-03,Bengaluru,247,247,4159.1,11,11,275,157,Delivered,0,0,1027297.7,Optimal
+ORD00058,01-02-2026,Om Logistics,Olive Oil,FMCG,WH-Central-04,Chennai,190,0,1214.64,4,4,237,71,In Transit,190,0,230781.6,Overstocked
+ORD00059,19-10-2025,Om Logistics,Air Filter,Automotive,WH-East-01,Mumbai,278,278,3888.91,5,8,132,142,Delivered,0,3,1081116.98,Reorder Needed
+ORD00060,24-06-2025,Zenith Supply,Induction Cooktop,Home & Kitchen,WH-Central-04,Mumbai,289,211,5255.89,4,4,123,111,Partially Delivered,78,0,1518952.21,Optimal
+ORD00061,20-12-2025,Delhivery Direct,Almond Pack,FMCG,WH-West-03,Mumbai,72,72,517.79,9,9,188,114,Delivered,0,0,37280.88,Optimal
+ORD00062,31-08-2025,FastTrack Corp,Wiper Blades,Automotive,WH-West-03,Jaipur,194,194,1842.42,10,10,61,69,Delivered,0,0,357429.48,Reorder Needed
+ORD00063,05-01-2026,Nexus Global,Formal Shirt,Apparel,WH-Central-04,Bengaluru,123,103,750.31,10,10,144,116,Partially Delivered,20,0,92288.13,Optimal
+ORD00064,21-02-2025,Mahindra Logistics,Formal Shirt,Apparel,WH-East-01,Bengaluru,179,179,376.17,11,11,283,46,Delivered,0,0,67334.43,Overstocked
+ORD00065,30-05-2025,Delhivery Direct,Hoodie,Apparel,WH-North-01,Mumbai,318,318,876.03,10,13,129,46,Delivered,0,3,278577.54,Overstocked
+ORD00066,02-09-2025,Om Logistics,Smartphone,Electronics,WH-West-03,Delhi,320,320,11774.69,3,3,155,112,Delivered,0,0,3767900.8,Optimal
+ORD00067,13-02-2025,TCI Express,Cotton T-Shirt,Apparel,WH-West-03,Lucknow,330,330,1812.87,6,10,226,156,Delivered,0,4,598247.1,Optimal
+ORD00068,02-06-2025,Zenith Supply,LED Headlights,Automotive,WH-Central-04,Lucknow,55,0,2899.49,14,13,320,66,Cancelled,55,-1,159471.95,Overstocked
+ORD00069,19-04-2025,Nexus Global,Electric Kettle,Home & Kitchen,WH-South-02,Hyderabad,113,113,3394.36,5,3,304,128,Delivered,0,-2,383562.68,Overstocked
+ORD00070,29-08-2025,Mahindra Logistics,Mixer Grinder,Home & Kitchen,WH-East-01,Chennai,384,0,4840.15,4,4,320,140,In Transit,384,0,1858617.6,Overstocked
+ORD00071,29-10-2025,Nexus Global,Running Shoes,Apparel,WH-Central-04,Hyderabad,356,356,625.63,7,7,157,61,Delivered,0,0,222724.28,Overstocked
+ORD00072,01-11-2025,Delhivery Direct,Car Battery,Automotive,WH-North-01,Ahmedabad,377,377,1646.77,9,9,224,103,Delivered,0,0,620832.29,Overstocked
+ORD00073,11-02-2025,Om Logistics,Engine Oil,Automotive,WH-East-01,Lucknow,153,0,506.05,6,4,137,126,Cancelled,153,-2,77425.65,Optimal
+ORD00074,23-10-2025,Delhivery Direct,Laptop,Electronics,WH-Central-04,Ahmedabad,494,494,5873.03,12,14,46,102,Delivered,0,2,2901276.82,Reorder Needed
+ORD00075,29-08-2025,FastTrack Corp,Water Purifier,Home & Kitchen,WH-East-01,Delhi,464,464,1555.88,9,12,205,160,Delivered,0,3,721928.32,Optimal
+ORD00076,21-02-2026,Delhivery Direct,Engine Oil,Automotive,WH-North-01,Pune,154,46,1725.42,9,13,277,124,Partially Delivered,108,4,265714.68,Overstocked
+ORD00077,25-08-2025,Mahindra Logistics,Organic Tea,FMCG,WH-Central-04,Pune,343,154,1095.55,13,16,281,74,Partially Delivered,189,3,375773.65,Overstocked
+ORD00078,09-03-2025,Delhivery Direct,Water Purifier,Home & Kitchen,WH-North-01,Mumbai,347,347,3661.7,6,6,282,41,Delivered,0,0,1270609.9,Overstocked
+ORD00079,28-07-2025,Nexus Global,Laptop,Electronics,WH-West-03,Delhi,356,356,15180.01,10,10,212,74,Delivered,0,0,5404083.56,Overstocked
+ORD00080,05-09-2025,Delhivery Direct,Protein Powder,FMCG,WH-Central-04,Bengaluru,221,83,388.26,12,16,35,150,Partially Delivered,138,4,85805.46,Reorder Needed
+ORD00081,22-05-2025,TCI Express,Detergent Pack,FMCG,WH-East-01,Mumbai,169,107,1057.56,12,15,247,108,Partially Delivered,62,3,178727.64,Overstocked
+ORD00082,26-06-2025,TCI Express,Induction Cooktop,Home & Kitchen,WH-West-03,Ahmedabad,189,189,4887.13,14,14,210,69,Delivered,0,0,923667.57,Overstocked
+ORD00083,23-01-2025,Delhivery Direct,Electric Kettle,Home & Kitchen,WH-West-03,Kolkata,364,364,4524.25,13,13,64,44,Delivered,0,0,1646827,Optimal
+ORD00084,15-09-2025,Nexus Global,Car Battery,Automotive,WH-West-03,Delhi,294,294,4132.81,3,3,79,123,Delivered,0,0,1215046.14,Reorder Needed
+ORD00085,08-02-2025,FastTrack Corp,Detergent Pack,FMCG,WH-Central-04,Kolkata,357,357,250.39,8,12,320,80,Delivered,0,4,89389.23,Overstocked
+ORD00086,03-01-2026,Apex Logistics,Shampoo Bottle,FMCG,WH-Central-04,Delhi,145,98,938.95,7,7,51,52,Partially Delivered,47,0,136147.75,Reorder Needed
+ORD00087,16-08-2025,Zenith Supply,Hoodie,Apparel,WH-North-01,Mumbai,191,191,1822.87,7,8,125,58,Delivered,0,1,348168.17,Overstocked
+ORD00088,29-09-2025,BlueDart Suppliers,Shampoo Bottle,FMCG,WH-South-02,Bengaluru,65,65,911.86,9,9,73,114,Delivered,0,0,59270.9,Reorder Needed
+ORD00089,29-04-2025,Zenith Supply,Almond Pack,FMCG,WH-West-03,Chennai,366,366,161.75,10,10,37,60,Delivered,0,0,59200.5,Reorder Needed
+ORD00090,15-08-2025,Zenith Supply,Induction Cooktop,Home & Kitchen,WH-West-03,Chennai,258,104,4772.93,6,8,195,70,Partially Delivered,154,2,1231415.94,Overstocked
+ORD00091,20-10-2025,Zenith Supply,Induction Cooktop,Home & Kitchen,WH-East-01,Mumbai,449,449,3893.68,7,5,25,127,Delivered,0,-2,1748262.32,Reorder Needed
+ORD00092,07-11-2025,Mahindra Logistics,Detergent Pack,FMCG,WH-Central-04,Pune,137,137,945.77,12,12,70,132,Delivered,0,0,129570.49,Reorder Needed
+ORD00093,18-11-2025,Apex Logistics,Tablet,Electronics,WH-East-01,Ahmedabad,42,42,10936.84,14,14,167,77,Delivered,0,0,459347.28,Overstocked
+ORD00094,18-01-2026,Mahindra Logistics,Protein Powder,FMCG,WH-South-02,Jaipur,473,0,1364.36,11,15,84,146,In Transit,473,4,645342.28,Reorder Needed
+ORD00095,12-05-2025,FastTrack Corp,Detergent Pack,FMCG,WH-North-01,Ahmedabad,63,0,325.95,6,8,285,142,Cancelled,63,2,20534.85,Overstocked
+ORD00096,07-07-2025,Apex Logistics,Smartwatch,Electronics,WH-East-01,Jaipur,88,88,8840.41,13,13,190,145,Delivered,0,0,777956.08,Optimal
+ORD00097,25-02-2025,Apex Logistics,Running Shoes,Apparel,WH-Central-04,Jaipur,192,192,2043.22,6,5,154,99,Delivered,0,-1,392298.24,Optimal
+ORD00098,29-11-2025,BlueDart Suppliers,Organic Tea,FMCG,WH-North-01,Mumbai,180,180,1394.91,4,3,69,108,Delivered,0,-1,251083.8,Reorder Needed
+ORD00099,18-07-2025,TCI Express,Detergent Pack,FMCG,WH-West-03,Lucknow,405,278,1058.25,9,8,143,92,Partially Delivered,127,-1,428591.25,Optimal
+ORD00100,17-01-2025,Delhivery Direct,Air Fryer,Home & Kitchen,WH-West-03,Hyderabad,462,462,2504.62,13,14,183,122,Delivered,0,1,1157134.44,Optimal
+ORD00101,01-02-2025,Mahindra Logistics,Detergent Pack,FMCG,WH-North-01,Ahmedabad,71,71,978.46,13,11,124,82,Delivered,0,-2,69470.66,Optimal
+ORD00102,06-03-2025,Nexus Global,Brake Pads,Automotive,WH-Central-04,Hyderabad,325,249,1285.4,6,7,141,40,Partially Delivered,76,1,417755,Overstocked
+ORD00103,16-03-2025,Zenith Supply,Track Pants,Apparel,WH-South-02,Delhi,363,363,1952.93,5,3,121,140,Delivered,0,-2,708913.59,Reorder Needed
+ORD00104,29-10-2025,BlueDart Suppliers,Mixer Grinder,Home & Kitchen,WH-East-01,Mumbai,89,56,4286.07,11,10,185,97,Partially Delivered,33,-1,381460.23,Optimal
+ORD00105,20-09-2025,Delhivery Direct,Engine Oil,Automotive,WH-Central-04,Hyderabad,339,339,577.8,13,17,15,122,Delivered,0,4,195874.2,Reorder Needed
+ORD00106,01-02-2025,Om Logistics,Olive Oil,FMCG,WH-North-01,Ahmedabad,389,389,1287.13,4,3,33,58,Delivered,0,-1,500693.57,Reorder Needed
+ORD00107,06-03-2025,TCI Express,Induction Cooktop,Home & Kitchen,WH-East-01,Kolkata,330,330,3293.62,10,14,58,52,Delivered,0,4,1086894.6,Optimal
+ORD00108,02-12-2025,Mahindra Logistics,Air Filter,Automotive,WH-West-03,Ahmedabad,479,479,1336.82,8,11,48,133,Delivered,0,3,640336.78,Reorder Needed
+ORD00109,10-06-2025,Zenith Supply,Detergent Pack,FMCG,WH-East-01,Bengaluru,376,135,1303.73,4,3,49,95,Partially Delivered,241,-1,490202.48,Reorder Needed
+ORD00110,17-01-2026,TCI Express,Air Fryer,Home & Kitchen,WH-North-01,Lucknow,312,312,3439.91,13,12,216,151,Delivered,0,-1,1073251.92,Optimal
+ORD00111,05-01-2026,Zenith Supply,Wireless Headphones,Electronics,WH-East-01,Delhi,320,320,9724.53,5,8,179,53,Delivered,0,3,3111849.6,Overstocked
+ORD00112,12-10-2025,Zenith Supply,Mixer Grinder,Home & Kitchen,WH-Central-04,Hyderabad,438,438,2816.83,11,15,136,158,Delivered,0,4,1233771.54,Reorder Needed
+ORD00113,15-01-2025,Zenith Supply,Formal Shirt,Apparel,WH-East-01,Pune,28,28,685.6,5,7,15,134,Delivered,0,2,19196.8,Reorder Needed
+ORD00114,16-02-2025,Om Logistics,Brake Pads,Automotive,WH-West-03,Ahmedabad,199,131,1045.38,7,8,43,116,Partially Delivered,68,1,208030.62,Reorder Needed
+ORD00115,27-01-2025,Apex Logistics,Denim Jeans,Apparel,WH-North-01,Chennai,251,251,1574.59,10,13,262,67,Delivered,0,3,395222.09,Overstocked
+ORD00116,28-02-2025,Nexus Global,Water Purifier,Home & Kitchen,WH-East-01,Lucknow,274,274,3276.59,7,5,28,116,Delivered,0,-2,897785.66,Reorder Needed
+ORD00117,04-01-2025,Mahindra Logistics,Formal Shirt,Apparel,WH-South-02,Chennai,173,73,957.03,3,6,194,56,Partially Delivered,100,3,165566.19,Overstocked
+ORD00118,30-09-2025,TCI Express,Track Pants,Apparel,WH-East-01,Delhi,228,228,1944.26,3,5,39,157,Delivered,0,2,443291.28,Reorder Needed
+ORD00119,10-06-2025,Om Logistics,LED Headlights,Automotive,WH-West-03,Chennai,83,63,2060.63,8,8,185,98,Partially Delivered,20,0,171032.29,Optimal
+ORD00120,15-02-2025,Mahindra Logistics,Organic Tea,FMCG,WH-West-03,Lucknow,230,97,804.95,9,9,86,82,Partially Delivered,133,0,185138.5,Optimal
+ORD00121,09-02-2025,Nexus Global,Air Filter,Automotive,WH-Central-04,Jaipur,124,55,4114.28,8,9,52,70,Partially Delivered,69,1,510170.72,Reorder Needed
+ORD00122,16-03-2025,BlueDart Suppliers,Air Fryer,Home & Kitchen,WH-Central-04,Bengaluru,414,0,4368.02,4,4,252,120,Cancelled,414,0,1808360.28,Overstocked
+ORD00123,26-08-2025,Delhivery Direct,Wiper Blades,Automotive,WH-Central-04,Lucknow,190,190,3943.41,13,14,240,48,Delivered,0,1,749247.9,Overstocked
+ORD00124,15-08-2025,Apex Logistics,Cookware Set,Home & Kitchen,WH-East-01,Jaipur,62,62,2258.92,10,8,146,146,Delivered,0,-2,140053.04,Optimal
+ORD00125,09-02-2025,TCI Express,Bluetooth Speaker,Electronics,WH-West-03,Ahmedabad,322,322,10512.52,14,12,292,143,Delivered,0,-2,3385031.44,Overstocked
+ORD00126,30-11-2025,Delhivery Direct,Formal Shirt,Apparel,WH-Central-04,Bengaluru,56,56,1183.47,8,7,20,62,Delivered,0,-1,66274.32,Reorder Needed
+ORD00127,07-05-2025,TCI Express,Olive Oil,FMCG,WH-Central-04,Lucknow,106,106,604.87,7,9,306,83,Delivered,0,2,64116.22,Overstocked
+ORD00128,27-01-2025,FastTrack Corp,Mixer Grinder,Home & Kitchen,WH-North-01,Jaipur,372,372,2616.85,7,7,72,114,Delivered,0,0,973468.2,Reorder Needed
+ORD00129,29-06-2025,Om Logistics,Electric Kettle,Home & Kitchen,WH-South-02,Lucknow,387,387,5208.61,7,11,168,141,Delivered,0,4,2015732.07,Optimal
+ORD00130,21-02-2026,TCI Express,Hoodie,Apparel,WH-North-01,Kolkata,285,285,1019.38,8,8,174,67,Delivered,0,0,290523.3,Overstocked
+ORD00131,28-01-2026,Mahindra Logistics,Protein Powder,FMCG,WH-South-02,Bengaluru,64,52,519.74,4,8,172,44,Partially Delivered,12,4,33263.36,Overstocked
+ORD00132,28-01-2026,Om Logistics,Brake Pads,Automotive,WH-South-02,Bengaluru,117,40,3808.51,12,12,186,92,Partially Delivered,77,0,445595.67,Overstocked
+ORD00133,13-12-2025,Zenith Supply,Running Shoes,Apparel,WH-West-03,Hyderabad,298,298,792.46,10,10,225,113,Delivered,0,0,236153.08,Optimal
+ORD00134,25-08-2025,TCI Express,Water Purifier,Home & Kitchen,WH-Central-04,Kolkata,107,0,4639.39,12,12,246,46,In Transit,107,0,496414.73,Overstocked
+ORD00135,10-07-2025,TCI Express,Engine Oil,Automotive,WH-North-01,Chennai,67,0,3528.78,7,10,223,58,In Transit,67,3,236428.26,Overstocked
+ORD00136,16-02-2025,FastTrack Corp,Running Shoes,Apparel,WH-North-01,Kolkata,52,52,1083.44,8,8,191,50,Delivered,0,0,56338.88,Overstocked
+ORD00137,25-04-2025,Nexus Global,Wireless Headphones,Electronics,WH-East-01,Bengaluru,95,58,1843.49,10,10,315,97,Partially Delivered,37,0,175131.55,Overstocked
+ORD00138,03-01-2025,Zenith Supply,Smartphone,Electronics,WH-South-02,Bengaluru,305,305,16995.8,12,16,147,139,Delivered,0,4,5183719,Optimal
+ORD00139,02-05-2025,Apex Logistics,Mixer Grinder,Home & Kitchen,WH-South-02,Kolkata,352,352,4531.33,10,9,255,155,Delivered,0,-1,1595028.16,Optimal
+ORD00140,02-11-2025,TCI Express,Engine Oil,Automotive,WH-Central-04,Hyderabad,392,392,988.67,9,7,292,70,Delivered,0,-2,387558.64,Overstocked
+ORD00141,02-08-2025,Nexus Global,Hoodie,Apparel,WH-Central-04,Pune,59,49,2113.8,11,15,10,110,Partially Delivered,10,4,124714.2,Reorder Needed
+ORD00142,19-07-2025,Om Logistics,Organic Tea,FMCG,WH-East-01,Chennai,407,407,170.3,4,5,53,124,Delivered,0,1,69312.1,Reorder Needed
+ORD00143,31-01-2026,FastTrack Corp,Air Filter,Automotive,WH-South-02,Mumbai,205,148,2638.66,13,13,245,99,Partially Delivered,57,0,540925.3,Overstocked
+ORD00144,20-11-2025,Nexus Global,Denim Jeans,Apparel,WH-West-03,Mumbai,175,175,722.94,6,4,263,79,Delivered,0,-2,126514.5,Overstocked
+ORD00145,23-07-2025,Zenith Supply,LED Headlights,Automotive,WH-North-01,Hyderabad,171,171,1863.59,3,4,188,142,Delivered,0,1,318673.89,Optimal
+ORD00146,12-08-2025,Delhivery Direct,Almond Pack,FMCG,WH-West-03,Pune,120,0,770.25,10,11,136,106,In Transit,120,1,92430,Optimal
+ORD00147,15-02-2026,Om Logistics,Tablet,Electronics,WH-North-01,Kolkata,333,333,17917.65,5,9,40,53,Delivered,0,4,5966577.45,Reorder Needed
+ORD00148,17-06-2025,Delhivery Direct,Cookware Set,Home & Kitchen,WH-Central-04,Kolkata,110,110,4041.89,8,11,180,151,Delivered,0,3,444607.9,Optimal
+ORD00149,11-11-2025,Apex Logistics,Detergent Pack,FMCG,WH-North-01,Kolkata,211,0,791.36,14,14,311,58,Cancelled,211,0,166976.96,Overstocked
+ORD00150,14-12-2025,BlueDart Suppliers,Organic Tea,FMCG,WH-North-01,Hyderabad,423,0,956.45,8,10,309,44,Cancelled,423,2,404578.35,Overstocked
+ORD00151,20-03-2025,FastTrack Corp,Detergent Pack,FMCG,WH-West-03,Delhi,318,318,322.12,8,10,127,75,Delivered,0,2,102434.16,Optimal
+ORD00152,28-02-2025,BlueDart Suppliers,Tablet,Electronics,WH-West-03,Jaipur,223,156,16547.51,4,4,109,97,Partially Delivered,67,0,3690094.73,Optimal
+ORD00153,10-11-2025,Delhivery Direct,Electric Kettle,Home & Kitchen,WH-South-02,Delhi,94,0,4808.28,10,10,44,96,In Transit,94,0,451978.32,Reorder Needed
+ORD00154,19-02-2026,FastTrack Corp,Electric Kettle,Home & Kitchen,WH-North-01,Jaipur,302,302,2164.7,7,7,89,158,Delivered,0,0,653739.4,Reorder Needed
+ORD00155,11-02-2026,Mahindra Logistics,Induction Cooktop,Home & Kitchen,WH-North-01,Hyderabad,430,430,1452.72,10,8,188,113,Delivered,0,-2,624669.6,Optimal
+ORD00156,28-08-2025,Nexus Global,Brake Pads,Automotive,WH-North-01,Chennai,228,228,4498.34,14,17,209,138,Delivered,0,3,1025621.52,Optimal
+ORD00157,22-10-2025,FastTrack Corp,Laptop,Electronics,WH-North-01,Ahmedabad,263,0,12625.83,8,8,282,139,In Transit,263,0,3320593.29,Overstocked
+ORD00158,24-11-2025,BlueDart Suppliers,Brake Pads,Automotive,WH-West-03,Jaipur,491,491,3959.67,4,8,82,61,Delivered,0,4,1944197.97,Optimal
+ORD00159,15-06-2025,TCI Express,Formal Shirt,Apparel,WH-East-01,Delhi,153,153,713.16,11,11,314,78,Delivered,0,0,109113.48,Overstocked
+ORD00160,01-10-2025,BlueDart Suppliers,Bluetooth Speaker,Electronics,WH-Central-04,Lucknow,103,66,4076.17,12,13,14,45,Partially Delivered,37,1,419845.51,Reorder Needed
+ORD00161,11-02-2025,Zenith Supply,Tablet,Electronics,WH-South-02,Lucknow,238,0,11584.22,3,6,148,109,In Transit,238,3,2757044.36,Optimal
+ORD00162,25-11-2025,Mahindra Logistics,Water Purifier,Home & Kitchen,WH-West-03,Chennai,257,257,1142.97,3,3,237,101,Delivered,0,0,293743.29,Overstocked
+ORD00163,15-04-2025,BlueDart Suppliers,Induction Cooktop,Home & Kitchen,WH-East-01,Pune,400,400,5443.71,8,10,263,87,Delivered,0,2,2177484,Overstocked
+ORD00164,15-10-2025,Mahindra Logistics,Wireless Headphones,Electronics,WH-West-03,Delhi,161,161,8753.21,5,4,315,89,Delivered,0,-1,1409266.81,Overstocked
+ORD00165,03-08-2025,FastTrack Corp,Denim Jeans,Apparel,WH-Central-04,Pune,122,122,1761.77,10,14,157,152,Delivered,0,4,214935.94,Optimal
+ORD00166,12-09-2025,Om Logistics,Smartphone,Electronics,WH-Central-04,Ahmedabad,148,148,4814.43,8,6,305,103,Delivered,0,-2,712535.64,Overstocked
+ORD00167,01-12-2025,TCI Express,Detergent Pack,FMCG,WH-North-01,Delhi,245,166,317.42,7,8,205,45,Partially Delivered,79,1,77767.9,Overstocked
+ORD00168,27-01-2025,Mahindra Logistics,Wiper Blades,Automotive,WH-East-01,Jaipur,172,86,701.48,11,14,319,145,Partially Delivered,86,3,120654.56,Overstocked
+ORD00169,15-12-2025,BlueDart Suppliers,Engine Oil,Automotive,WH-North-01,Kolkata,216,0,3659.08,8,12,73,136,Cancelled,216,4,790361.28,Reorder Needed
+ORD00170,12-04-2025,Om Logistics,Wiper Blades,Automotive,WH-Central-04,Mumbai,48,30,559.55,14,15,76,98,Partially Delivered,18,1,26858.4,Reorder Needed
+ORD00171,07-11-2025,FastTrack Corp,Brake Pads,Automotive,WH-Central-04,Pune,108,108,2011.11,12,12,260,104,Delivered,0,0,217199.88,Overstocked
+ORD00172,30-09-2025,Zenith Supply,Almond Pack,FMCG,WH-West-03,Mumbai,213,213,564.05,4,6,13,141,Delivered,0,2,120142.65,Reorder Needed
+ORD00173,02-11-2025,Mahindra Logistics,Detergent Pack,FMCG,WH-North-01,Lucknow,270,270,363.14,13,15,124,127,Delivered,0,2,98047.8,Reorder Needed
+ORD00174,17-01-2025,Nexus Global,Air Filter,Automotive,WH-South-02,Mumbai,250,250,1686.14,5,7,256,92,Delivered,0,2,421535,Overstocked
+ORD00175,01-02-2026,Apex Logistics,LED Headlights,Automotive,WH-South-02,Jaipur,131,131,2699.64,13,16,88,80,Delivered,0,3,353652.84,Optimal
+ORD00176,24-08-2025,TCI Express,Car Battery,Automotive,WH-East-01,Chennai,337,337,2385.14,6,6,152,68,Delivered,0,0,803792.18,Overstocked
+ORD00177,30-01-2026,Mahindra Logistics,Electric Kettle,Home & Kitchen,WH-West-03,Pune,270,270,2439.37,14,14,278,113,Delivered,0,0,658629.9,Overstocked
+ORD00178,14-07-2025,BlueDart Suppliers,Detergent Pack,FMCG,WH-East-01,Mumbai,172,0,1344.14,4,5,131,123,In Transit,172,1,231192.08,Optimal
+ORD00179,18-01-2026,Mahindra Logistics,Protein Powder,FMCG,WH-Central-04,Chennai,312,312,1020.21,5,4,122,115,Delivered,0,-1,318305.52,Optimal
+ORD00180,05-05-2025,TCI Express,Tablet,Electronics,WH-South-02,Hyderabad,51,51,2883.33,8,11,70,138,Delivered,0,3,147049.83,Reorder Needed
+ORD00181,03-01-2025,Om Logistics,Brake Pads,Automotive,WH-West-03,Ahmedabad,358,358,1217.77,7,8,45,47,Delivered,0,1,435961.66,Reorder Needed
+ORD00182,30-11-2025,TCI Express,Brake Pads,Automotive,WH-North-01,Bengaluru,238,0,4017.2,5,3,253,90,Cancelled,238,-2,956093.6,Overstocked
+ORD00183,06-04-2025,Apex Logistics,Mixer Grinder,Home & Kitchen,WH-East-01,Lucknow,333,333,1304.31,8,8,278,122,Delivered,0,0,434335.23,Overstocked
+ORD00184,26-09-2025,TCI Express,Protein Powder,FMCG,WH-West-03,Chennai,123,68,1161.02,8,8,95,131,Partially Delivered,55,0,142805.46,Reorder Needed
+ORD00185,08-01-2025,Mahindra Logistics,Cookware Set,Home & Kitchen,WH-South-02,Lucknow,463,463,3802.01,9,11,205,51,Delivered,0,2,1760330.63,Overstocked
+ORD00186,09-12-2025,BlueDart Suppliers,Laptop,Electronics,WH-West-03,Pune,152,152,1314.75,9,9,168,74,Delivered,0,0,199842,Overstocked
+ORD00187,04-06-2025,Apex Logistics,Air Filter,Automotive,WH-East-01,Pune,379,379,1368.84,13,12,207,60,Delivered,0,-1,518790.36,Overstocked
+ORD00188,18-12-2025,Zenith Supply,Air Filter,Automotive,WH-North-01,Chennai,213,213,2919.96,6,6,310,98,Delivered,0,0,621951.48,Overstocked
+ORD00189,11-07-2025,TCI Express,Almond Pack,FMCG,WH-West-03,Jaipur,435,435,980.12,6,6,41,116,Delivered,0,0,426352.2,Reorder Needed
+ORD00190,27-09-2025,FastTrack Corp,Shampoo Bottle,FMCG,WH-North-01,Lucknow,82,82,227.2,11,15,76,108,Delivered,0,4,18630.4,Reorder Needed
+ORD00191,26-03-2025,Delhivery Direct,Induction Cooktop,Home & Kitchen,WH-North-01,Hyderabad,392,392,3540.79,4,8,232,47,Delivered,0,4,1387989.68,Overstocked
+ORD00192,09-03-2025,Delhivery Direct,LED Headlights,Automotive,WH-Central-04,Mumbai,311,311,2295.75,7,5,1,144,Delivered,0,-2,713978.25,Reorder Needed
+ORD00193,17-01-2026,Nexus Global,Track Pants,Apparel,WH-North-01,Kolkata,201,0,1645.71,11,9,241,48,Cancelled,201,-2,330787.71,Overstocked
+ORD00194,17-01-2025,BlueDart Suppliers,Water Purifier,Home & Kitchen,WH-South-02,Kolkata,216,180,5466.43,9,12,192,88,Partially Delivered,36,3,1180748.88,Overstocked
+ORD00195,11-02-2025,FastTrack Corp,Brake Pads,Automotive,WH-North-01,Bengaluru,300,95,2011.54,5,5,237,78,Partially Delivered,205,0,603462,Overstocked
+ORD00196,11-12-2025,TCI Express,LED Headlights,Automotive,WH-West-03,Hyderabad,151,151,2288.56,5,5,57,152,Delivered,0,0,345572.56,Reorder Needed
+ORD00197,17-01-2025,Apex Logistics,Shampoo Bottle,FMCG,WH-South-02,Hyderabad,59,59,276.12,3,6,24,130,Delivered,0,3,16291.08,Reorder Needed
+ORD00198,06-05-2025,Delhivery Direct,Smartwatch,Electronics,WH-South-02,Jaipur,136,136,13873.68,3,3,119,77,Delivered,0,0,1886820.48,Optimal
+ORD00199,22-02-2026,FastTrack Corp,Car Battery,Automotive,WH-South-02,Chennai,473,473,987.37,13,17,140,78,Delivered,0,4,467026.01,Optimal
+ORD00200,01-02-2025,BlueDart Suppliers,Wiper Blades,Automotive,WH-West-03,Jaipur,278,164,592.22,8,10,213,129,Partially Delivered,114,2,164637.16,Optimal
+ORD00201,29-07-2025,Om Logistics,Formal Shirt,Apparel,WH-South-02,Jaipur,267,116,795.79,6,6,237,143,Partially Delivered,151,0,212475.93,Optimal
+ORD00202,30-01-2025,Om Logistics,LED Headlights,Automotive,WH-Central-04,Jaipur,93,93,1992.52,7,7,230,50,Delivered,0,0,185304.36,Overstocked
+ORD00203,09-07-2025,Mahindra Logistics,Bluetooth Speaker,Electronics,WH-North-01,Chennai,218,0,12517.69,12,10,300,64,In Transit,218,-2,2728856.42,Overstocked
+ORD00204,06-01-2026,Delhivery Direct,Brake Pads,Automotive,WH-South-02,Pune,180,0,4323.78,3,3,60,134,Cancelled,180,0,778280.4,Reorder Needed
+ORD00205,18-01-2026,Mahindra Logistics,Protein Powder,FMCG,WH-West-03,Hyderabad,307,307,552.02,7,9,183,123,Delivered,0,2,169470.14,Optimal
+ORD00206,07-06-2025,TCI Express,Cookware Set,Home & Kitchen,WH-West-03,Ahmedabad,75,42,4573.24,14,17,104,157,Partially Delivered,33,3,342993,Reorder Needed
+ORD00207,09-07-2025,Apex Logistics,Water Purifier,Home & Kitchen,WH-Central-04,Hyderabad,404,0,1485.84,7,11,213,114,Cancelled,404,4,600279.36,Optimal
+ORD00208,01-06-2025,FastTrack Corp,Denim Jeans,Apparel,WH-South-02,Kolkata,316,316,1891.72,10,14,172,127,Delivered,0,4,597783.52,Optimal
+ORD00209,12-05-2025,Delhivery Direct,Almond Pack,FMCG,WH-West-03,Bengaluru,400,245,1143.72,5,5,277,63,Partially Delivered,155,0,457488,Overstocked
+ORD00210,25-11-2025,Apex Logistics,Bluetooth Speaker,Electronics,WH-North-01,Mumbai,416,416,1307.25,5,5,4,59,Delivered,0,0,543816,Reorder Needed
+ORD00211,22-04-2025,FastTrack Corp,LED Headlights,Automotive,WH-North-01,Lucknow,351,351,3133.69,12,15,3,42,Delivered,0,3,1099925.19,Reorder Needed
+ORD00212,30-09-2025,Apex Logistics,LED Headlights,Automotive,WH-North-01,Jaipur,394,394,1526.44,7,5,220,129,Delivered,0,-2,601417.36,Optimal
+ORD00213,17-02-2026,Nexus Global,Cotton T-Shirt,Apparel,WH-Central-04,Bengaluru,148,78,705.07,11,11,203,141,Partially Delivered,70,0,104350.36,Optimal
+ORD00214,10-02-2025,Delhivery Direct,Water Purifier,Home & Kitchen,WH-Central-04,Hyderabad,381,381,1861.53,13,12,16,149,Delivered,0,-1,709242.93,Reorder Needed
+ORD00215,17-02-2025,Om Logistics,Olive Oil,FMCG,WH-Central-04,Ahmedabad,53,53,945.94,14,14,222,148,Delivered,0,0,50134.82,Optimal
+ORD00216,27-11-2025,Nexus Global,Induction Cooktop,Home & Kitchen,WH-Central-04,Mumbai,142,142,1793.66,14,17,38,158,Delivered,0,3,254699.72,Reorder Needed
+ORD00217,17-12-2025,Apex Logistics,Induction Cooktop,Home & Kitchen,WH-South-02,Pune,33,21,5318.91,12,12,39,158,Partially Delivered,12,0,175524.03,Reorder Needed
+ORD00218,03-06-2025,Mahindra Logistics,Track Pants,Apparel,WH-Central-04,Kolkata,371,146,2008.57,8,10,40,141,Partially Delivered,225,2,745179.47,Reorder Needed
+ORD00219,14-09-2025,Nexus Global,Mixer Grinder,Home & Kitchen,WH-West-03,Hyderabad,454,0,1157.29,12,14,15,81,Cancelled,454,2,525409.66,Reorder Needed
+ORD00220,21-11-2025,Delhivery Direct,Water Purifier,Home & Kitchen,WH-South-02,Pune,308,308,5223.37,9,9,194,124,Delivered,0,0,1608797.96,Optimal
+ORD00221,13-02-2025,Mahindra Logistics,Car Battery,Automotive,WH-North-01,Delhi,162,88,1032.31,14,14,54,86,Partially Delivered,74,0,167234.22,Reorder Needed
+ORD00222,16-02-2025,Delhivery Direct,Wireless Headphones,Electronics,WH-East-01,Chennai,77,77,3426.12,5,7,262,111,Delivered,0,2,263811.24,Overstocked
+ORD00223,28-07-2025,Nexus Global,Smartphone,Electronics,WH-East-01,Jaipur,72,72,11228.33,8,10,198,92,Delivered,0,2,808439.76,Overstocked
+ORD00224,03-02-2026,TCI Express,Tablet,Electronics,WH-South-02,Lucknow,291,291,4048.99,9,9,137,78,Delivered,0,0,1178256.09,Optimal
+ORD00225,10-09-2025,BlueDart Suppliers,Cotton T-Shirt,Apparel,WH-West-03,Chennai,240,240,904.54,4,5,320,71,Delivered,0,1,217089.6,Overstocked
+ORD00226,11-09-2025,Mahindra Logistics,Wiper Blades,Automotive,WH-West-03,Delhi,94,52,1649.1,9,10,168,142,Partially Delivered,42,1,155015.4,Optimal
+ORD00227,14-08-2025,BlueDart Suppliers,Water Purifier,Home & Kitchen,WH-East-01,Pune,333,333,5252.21,6,9,163,90,Delivered,0,3,1748985.93,Optimal
+ORD00228,30-05-2025,Mahindra Logistics,Shampoo Bottle,FMCG,WH-East-01,Kolkata,168,168,1170.62,9,10,102,112,Delivered,0,1,196664.16,Reorder Needed
+ORD00229,31-10-2025,TCI Express,Brake Pads,Automotive,WH-North-01,Ahmedabad,387,319,1259.56,7,6,209,141,Partially Delivered,68,-1,487449.72,Optimal
+ORD00230,11-12-2025,Zenith Supply,Protein Powder,FMCG,WH-South-02,Chennai,362,362,342.68,9,11,245,116,Delivered,0,2,124050.16,Overstocked
+ORD00231,26-10-2025,TCI Express,Shampoo Bottle,FMCG,WH-West-03,Jaipur,43,43,1138.4,8,12,43,157,Delivered,0,4,48951.2,Reorder Needed
+ORD00232,25-02-2025,FastTrack Corp,Hoodie,Apparel,WH-South-02,Lucknow,47,0,1391.96,13,15,220,82,Cancelled,47,2,65422.12,Overstocked
+ORD00233,24-02-2025,Zenith Supply,Smartphone,Electronics,WH-South-02,Jaipur,407,407,9915.8,12,12,237,90,Delivered,0,0,4035730.6,Overstocked
+ORD00234,31-01-2026,TCI Express,Air Filter,Automotive,WH-South-02,Pune,37,0,2379.36,7,9,59,50,In Transit,37,2,88036.32,Optimal
+ORD00235,09-01-2026,Zenith Supply,Formal Shirt,Apparel,WH-East-01,Ahmedabad,426,426,732.7,10,11,231,96,Delivered,0,1,312130.2,Overstocked
+ORD00236,13-06-2025,Apex Logistics,Wireless Headphones,Electronics,WH-North-01,Mumbai,459,0,6963.71,4,4,124,134,In Transit,459,0,3196342.89,Reorder Needed
+ORD00237,22-09-2025,BlueDart Suppliers,Track Pants,Apparel,WH-East-01,Jaipur,243,243,2123.16,6,8,221,63,Delivered,0,2,515927.88,Overstocked
+ORD00238,22-07-2025,Mahindra Logistics,Tablet,Electronics,WH-West-03,Lucknow,244,244,7732.44,14,14,32,136,Delivered,0,0,1886715.36,Reorder Needed
+ORD00239,23-10-2025,BlueDart Suppliers,Bluetooth Speaker,Electronics,WH-East-01,Pune,125,125,8886.85,7,10,160,121,Delivered,0,3,1110856.25,Optimal
+ORD00240,02-11-2025,Om Logistics,Shampoo Bottle,FMCG,WH-Central-04,Delhi,203,150,589.98,10,10,152,142,Partially Delivered,53,0,119765.94,Optimal
+ORD00241,11-11-2025,BlueDart Suppliers,Engine Oil,Automotive,WH-East-01,Delhi,147,147,1652.06,5,6,198,105,Delivered,0,1,242852.82,Optimal
+ORD00242,03-08-2025,Om Logistics,Brake Pads,Automotive,WH-West-03,Bengaluru,274,274,3005.56,14,14,147,102,Delivered,0,0,823523.44,Optimal
+ORD00243,13-03-2025,Delhivery Direct,Formal Shirt,Apparel,WH-Central-04,Mumbai,468,468,1014.22,3,6,196,144,Delivered,0,3,474654.96,Optimal
+ORD00244,15-10-2025,Delhivery Direct,Air Filter,Automotive,WH-West-03,Ahmedabad,237,237,3311.58,10,13,15,112,Delivered,0,3,784844.46,Reorder Needed
+ORD00245,12-02-2026,Apex Logistics,Formal Shirt,Apparel,WH-East-01,Hyderabad,300,300,884.04,10,13,293,54,Delivered,0,3,265212,Overstocked
+ORD00246,28-02-2025,FastTrack Corp,Induction Cooktop,Home & Kitchen,WH-Central-04,Mumbai,414,0,4179.21,11,11,126,53,Cancelled,414,0,1730192.94,Overstocked
+ORD00247,02-06-2025,Zenith Supply,Smartwatch,Electronics,WH-East-01,Delhi,249,249,15736.88,4,4,301,134,Delivered,0,0,3918483.12,Overstocked
+ORD00248,19-12-2025,Om Logistics,Electric Kettle,Home & Kitchen,WH-South-02,Lucknow,96,96,4488.79,6,4,143,108,Delivered,0,-2,430923.84,Optimal
+ORD00249,02-11-2025,FastTrack Corp,Brake Pads,Automotive,WH-East-01,Chennai,318,318,1496.11,11,10,210,136,Delivered,0,-1,475762.98,Optimal
+ORD00250,31-01-2025,BlueDart Suppliers,Electric Kettle,Home & Kitchen,WH-South-02,Hyderabad,99,99,4143.56,6,8,137,113,Delivered,0,2,410212.44,Optimal
+ORD00251,18-11-2025,Delhivery Direct,Olive Oil,FMCG,WH-North-01,Delhi,231,231,794.52,7,8,167,102,Delivered,0,1,183534.12,Optimal
+ORD00252,25-10-2025,Nexus Global,Tablet,Electronics,WH-West-03,Pune,460,460,2263.96,11,13,108,94,Delivered,0,2,1041421.6,Optimal
+ORD00253,11-09-2025,Zenith Supply,Cookware Set,Home & Kitchen,WH-East-01,Jaipur,320,0,1413.79,10,11,24,137,In Transit,320,1,452412.8,Reorder Needed
+ORD00254,24-01-2025,Delhivery Direct,Tablet,Electronics,WH-North-01,Delhi,500,500,15608.55,10,13,103,94,Delivered,0,3,7804275,Optimal
+ORD00255,19-12-2025,Zenith Supply,Hoodie,Apparel,WH-South-02,Chennai,72,72,1560.99,7,6,84,155,Delivered,0,-1,112391.28,Reorder Needed
+ORD00256,27-01-2025,Zenith Supply,Almond Pack,FMCG,WH-South-02,Kolkata,360,360,264,4,2,67,49,Delivered,0,-2,95040,Optimal
+ORD00257,31-10-2025,Delhivery Direct,Track Pants,Apparel,WH-North-01,Mumbai,381,381,985.61,4,6,36,101,Delivered,0,2,375517.41,Reorder Needed
+ORD00258,28-04-2025,Nexus Global,Organic Tea,FMCG,WH-North-01,Pune,213,159,1251.24,5,7,68,151,Partially Delivered,54,2,266514.12,Reorder Needed
+ORD00259,25-11-2025,TCI Express,Cotton T-Shirt,Apparel,WH-Central-04,Mumbai,337,261,1552.54,10,11,77,135,Partially Delivered,76,1,523205.98,Reorder Needed
+ORD00260,30-07-2025,Delhivery Direct,Air Filter,Automotive,WH-South-02,Delhi,484,484,811.91,4,6,161,94,Delivered,0,2,392964.44,Optimal
+ORD00261,10-02-2026,Zenith Supply,Denim Jeans,Apparel,WH-North-01,Hyderabad,308,98,1461.85,14,14,154,148,Partially Delivered,210,0,450249.8,Optimal
+ORD00262,16-04-2025,TCI Express,Wiper Blades,Automotive,WH-South-02,Kolkata,176,176,3049.3,6,9,255,70,Delivered,0,3,536676.8,Overstocked
+ORD00263,23-11-2025,TCI Express,Engine Oil,Automotive,WH-North-01,Pune,187,187,941.13,12,14,88,127,Delivered,0,2,175991.31,Reorder Needed
+ORD00264,26-01-2026,Apex Logistics,Organic Tea,FMCG,WH-Central-04,Delhi,32,0,477.73,3,1,259,90,Cancelled,32,-2,15287.36,Overstocked
+ORD00265,27-05-2025,Om Logistics,LED Headlights,Automotive,WH-West-03,Delhi,352,352,2599.92,12,12,40,79,Delivered,0,0,915171.84,Reorder Needed
+ORD00266,19-09-2025,TCI Express,Denim Jeans,Apparel,WH-East-01,Kolkata,325,325,1523.44,13,12,122,95,Delivered,0,-1,495118,Optimal
+ORD00267,30-01-2025,Om Logistics,Cotton T-Shirt,Apparel,WH-North-01,Ahmedabad,338,338,1476.34,7,7,70,130,Delivered,0,0,499002.92,Reorder Needed
+ORD00268,26-12-2025,Delhivery Direct,Laptop,Electronics,WH-East-01,Jaipur,289,289,14354.18,14,14,137,56,Delivered,0,0,4148358.02,Overstocked
+ORD00269,11-01-2026,FastTrack Corp,Smartphone,Electronics,WH-West-03,Chennai,293,293,2273.05,14,13,184,105,Delivered,0,-1,666003.65,Optimal
+ORD00270,29-01-2025,BlueDart Suppliers,Shampoo Bottle,FMCG,WH-East-01,Bengaluru,155,155,1116.66,12,11,1,105,Delivered,0,-1,173082.3,Reorder Needed
+ORD00271,23-01-2025,Apex Logistics,Laptop,Electronics,WH-West-03,Pune,221,221,16659.81,5,3,214,156,Delivered,0,-2,3681818.01,Optimal
+ORD00272,25-04-2025,Om Logistics,Air Fryer,Home & Kitchen,WH-East-01,Chennai,447,447,1166.07,8,7,26,155,Delivered,0,-1,521233.29,Reorder Needed
+ORD00273,02-04-2025,Apex Logistics,Track Pants,Apparel,WH-West-03,Delhi,474,474,1210.42,7,7,233,110,Delivered,0,0,573739.08,Overstocked
+ORD00274,05-01-2025,Zenith Supply,Air Fryer,Home & Kitchen,WH-Central-04,Chennai,403,403,3726.77,10,11,100,103,Delivered,0,1,1501888.31,Reorder Needed
+ORD00275,11-01-2026,BlueDart Suppliers,Brake Pads,Automotive,WH-North-01,Kolkata,37,0,1355.29,8,6,192,40,Cancelled,37,-2,50145.73,Overstocked
+ORD00276,13-01-2026,Mahindra Logistics,Mixer Grinder,Home & Kitchen,WH-Central-04,Hyderabad,239,239,3112.54,3,3,22,51,Delivered,0,0,743897.06,Reorder Needed
+ORD00277,29-04-2025,FastTrack Corp,LED Headlights,Automotive,WH-West-03,Delhi,322,322,791.87,5,7,31,112,Delivered,0,2,254982.14,Reorder Needed
+ORD00278,11-08-2025,Zenith Supply,Denim Jeans,Apparel,WH-East-01,Pune,499,499,1831.51,14,15,119,74,Delivered,0,1,913923.49,Optimal
+ORD00279,08-02-2025,Nexus Global,Denim Jeans,Apparel,WH-South-02,Delhi,109,109,1181.7,8,10,106,85,Delivered,0,2,128805.3,Optimal
+ORD00280,20-08-2025,Zenith Supply,Water Purifier,Home & Kitchen,WH-North-01,Delhi,105,105,4595.71,7,5,167,149,Delivered,0,-2,482549.55,Optimal
+ORD00281,17-03-2025,Mahindra Logistics,Tablet,Electronics,WH-East-01,Kolkata,287,130,2022.37,7,7,207,43,Partially Delivered,157,0,580420.19,Overstocked
+ORD00282,20-08-2025,TCI Express,Air Filter,Automotive,WH-South-02,Delhi,261,261,817.82,5,4,113,146,Delivered,0,-1,213451.02,Reorder Needed
+ORD00283,08-03-2025,FastTrack Corp,Running Shoes,Apparel,WH-North-01,Lucknow,325,0,828.82,4,2,227,65,Cancelled,325,-2,269366.5,Overstocked
+ORD00284,19-02-2026,FastTrack Corp,Cotton T-Shirt,Apparel,WH-North-01,Mumbai,261,179,443.68,12,14,15,103,Partially Delivered,82,2,115800.48,Reorder Needed
+ORD00285,15-07-2025,FastTrack Corp,Protein Powder,FMCG,WH-South-02,Bengaluru,165,165,499.82,5,3,125,118,Delivered,0,-2,82470.3,Optimal
+ORD00286,28-11-2025,Om Logistics,Water Purifier,Home & Kitchen,WH-Central-04,Ahmedabad,56,56,1212.29,9,9,269,122,Delivered,0,0,67888.24,Overstocked
+ORD00287,08-05-2025,Om Logistics,Engine Oil,Automotive,WH-East-01,Ahmedabad,303,303,3603.88,8,12,92,74,Delivered,0,4,1091975.64,Optimal
+ORD00288,14-01-2025,Mahindra Logistics,Induction Cooktop,Home & Kitchen,WH-North-01,Chennai,54,54,4600.67,10,14,119,114,Delivered,0,4,248436.18,Optimal
+ORD00289,23-03-2025,Mahindra Logistics,Laptop,Electronics,WH-East-01,Jaipur,442,374,14492.79,14,12,294,68,Partially Delivered,68,-2,6405813.18,Overstocked
+ORD00290,13-02-2026,BlueDart Suppliers,Detergent Pack,FMCG,WH-South-02,Hyderabad,328,0,547.51,14,15,180,43,In Transit,328,1,179583.28,Overstocked
+ORD00291,18-10-2025,Mahindra Logistics,Brake Pads,Automotive,WH-West-03,Jaipur,183,183,1119.78,3,2,112,117,Delivered,0,-1,204919.74,Reorder Needed
+ORD00292,11-01-2025,Apex Logistics,LED Headlights,Automotive,WH-East-01,Lucknow,128,0,3706.43,8,8,165,148,In Transit,128,0,474423.04,Optimal
+ORD00293,31-01-2025,BlueDart Suppliers,Laptop,Electronics,WH-North-01,Jaipur,465,465,7330.15,4,5,202,124,Delivered,0,1,3408519.75,Optimal
+ORD00294,28-10-2025,Zenith Supply,Wireless Headphones,Electronics,WH-East-01,Bengaluru,105,105,13503.51,9,12,287,62,Delivered,0,3,1417868.55,Overstocked
+ORD00295,22-12-2025,Mahindra Logistics,Car Battery,Automotive,WH-Central-04,Bengaluru,218,218,1657.98,14,14,0,133,Delivered,0,0,361439.64,Out of Stock
+ORD00296,26-12-2025,Apex Logistics,LED Headlights,Automotive,WH-South-02,Lucknow,187,187,4176.26,12,12,254,53,Delivered,0,0,780960.62,Overstocked
+ORD00297,14-03-2025,Nexus Global,Electric Kettle,Home & Kitchen,WH-South-02,Pune,188,188,1589.07,4,5,107,73,Delivered,0,1,298745.16,Optimal
+ORD00298,08-05-2025,Zenith Supply,Wireless Headphones,Electronics,WH-North-01,Mumbai,49,0,7683.74,14,16,211,153,Cancelled,49,2,376503.26,Optimal
+ORD00299,10-09-2025,TCI Express,Detergent Pack,FMCG,WH-West-03,Delhi,449,449,749.36,12,12,17,49,Delivered,0,0,336462.64,Reorder Needed
+ORD00300,31-05-2025,Zenith Supply,Wireless Headphones,Electronics,WH-North-01,Delhi,200,130,4057.77,9,9,47,160,Partially Delivered,70,0,811554,Reorder Needed
+ORD00301,23-06-2025,Delhivery Direct,Wiper Blades,Automotive,WH-North-01,Kolkata,359,359,1076.49,9,9,105,82,Delivered,0,0,386459.91,Optimal
+ORD00302,08-04-2025,TCI Express,Almond Pack,FMCG,WH-Central-04,Chennai,363,363,501.9,6,5,281,113,Delivered,0,-1,182189.7,Overstocked
+ORD00303,09-09-2025,FastTrack Corp,Cotton T-Shirt,Apparel,WH-North-01,Kolkata,69,69,894.92,13,16,105,43,Delivered,0,3,61749.48,Overstocked
+ORD00304,29-03-2025,Delhivery Direct,Mixer Grinder,Home & Kitchen,WH-North-01,Chennai,426,426,2668.1,10,10,198,109,Delivered,0,0,1136610.6,Optimal
+ORD00305,05-04-2025,FastTrack Corp,Water Purifier,Home & Kitchen,WH-South-02,Ahmedabad,47,47,2037.49,10,10,288,74,Delivered,0,0,95762.03,Overstocked
+ORD00306,01-02-2025,Nexus Global,Hoodie,Apparel,WH-North-01,Pune,438,438,1351.68,12,12,198,147,Delivered,0,0,592035.84,Optimal
+ORD00307,24-02-2026,TCI Express,LED Headlights,Automotive,WH-West-03,Lucknow,476,476,1366.13,7,6,17,149,Delivered,0,-1,650277.88,Reorder Needed
+ORD00308,15-09-2025,BlueDart Suppliers,Wiper Blades,Automotive,WH-North-01,Ahmedabad,113,49,4291.15,5,5,216,45,Partially Delivered,64,0,484899.95,Overstocked
+ORD00309,10-02-2025,BlueDart Suppliers,Protein Powder,FMCG,WH-Central-04,Chennai,188,188,1288.51,4,3,282,90,Delivered,0,-1,242239.88,Overstocked
+ORD00310,16-06-2025,Delhivery Direct,Induction Cooktop,Home & Kitchen,WH-North-01,Lucknow,325,325,3256.04,9,8,290,58,Delivered,0,-1,1058213,Overstocked
+ORD00311,29-10-2025,Nexus Global,Engine Oil,Automotive,WH-Central-04,Delhi,427,0,1572.98,11,12,196,73,In Transit,427,1,671662.46,Overstocked
+ORD00312,02-12-2025,Delhivery Direct,Shampoo Bottle,FMCG,WH-North-01,Bengaluru,166,166,653.72,12,14,169,153,Delivered,0,2,108517.52,Optimal
+ORD00313,20-12-2025,Delhivery Direct,Cotton T-Shirt,Apparel,WH-East-01,Pune,35,35,975.05,7,7,50,102,Delivered,0,0,34126.75,Reorder Needed
+ORD00314,27-04-2025,Delhivery Direct,Formal Shirt,Apparel,WH-East-01,Chennai,398,398,1121.03,13,12,208,67,Delivered,0,-1,446169.94,Overstocked
+ORD00315,15-01-2026,FastTrack Corp,Shampoo Bottle,FMCG,WH-North-01,Jaipur,430,430,348.72,7,11,268,139,Delivered,0,4,149949.6,Optimal
+ORD00316,19-10-2025,Mahindra Logistics,Laptop,Electronics,WH-South-02,Mumbai,152,152,1755.59,3,4,188,75,Delivered,0,1,266849.68,Overstocked
+ORD00317,26-08-2025,Nexus Global,LED Headlights,Automotive,WH-North-01,Hyderabad,215,0,2404.03,10,10,300,100,Cancelled,215,0,516866.45,Overstocked
+ORD00318,10-10-2025,BlueDart Suppliers,Cookware Set,Home & Kitchen,WH-East-01,Delhi,170,78,929.02,3,3,113,149,Partially Delivered,92,0,157933.4,Reorder Needed
+ORD00319,28-11-2025,Mahindra Logistics,Hoodie,Apparel,WH-East-01,Kolkata,287,287,387.1,13,11,88,56,Delivered,0,-2,111097.7,Optimal
+ORD00320,04-11-2025,Zenith Supply,Laptop,Electronics,WH-Central-04,Chennai,389,389,17446.01,13,13,178,88,Delivered,0,0,6786497.89,Overstocked
+ORD00321,24-08-2025,Delhivery Direct,Air Fryer,Home & Kitchen,WH-East-01,Jaipur,447,447,3730.95,12,11,191,124,Delivered,0,-1,1667734.65,Optimal
+ORD00322,15-10-2025,Zenith Supply,Wiper Blades,Automotive,WH-East-01,Delhi,271,147,661.73,7,8,152,123,Partially Delivered,124,1,179328.83,Optimal
+ORD00323,07-04-2025,Mahindra Logistics,Track Pants,Apparel,WH-North-01,Lucknow,231,196,1571.98,13,13,132,77,Partially Delivered,35,0,363127.38,Optimal
+ORD00324,03-08-2025,Apex Logistics,Olive Oil,FMCG,WH-Central-04,Lucknow,442,442,387.39,14,14,243,121,Delivered,0,0,171226.38,Overstocked
+ORD00325,10-12-2025,Zenith Supply,Induction Cooktop,Home & Kitchen,WH-South-02,Jaipur,117,58,2180.79,10,10,171,127,Partially Delivered,59,0,255152.43,Optimal
+ORD00326,02-12-2025,FastTrack Corp,Laptop,Electronics,WH-South-02,Chennai,240,240,14439.92,8,9,237,77,Delivered,0,1,3465580.8,Overstocked
+ORD00327,02-03-2025,Nexus Global,Organic Tea,FMCG,WH-West-03,Hyderabad,281,281,299.77,13,15,27,92,Delivered,0,2,84235.37,Reorder Needed
+ORD00328,19-03-2025,FastTrack Corp,Denim Jeans,Apparel,WH-West-03,Lucknow,482,482,2027.25,10,10,92,131,Delivered,0,0,977134.5,Reorder Needed
+ORD00329,03-02-2026,FastTrack Corp,Smartwatch,Electronics,WH-South-02,Pune,349,349,2174.63,10,10,86,139,Delivered,0,0,758945.87,Reorder Needed
+ORD00330,23-10-2025,Nexus Global,Running Shoes,Apparel,WH-South-02,Lucknow,247,0,1521.95,9,11,2,89,Cancelled,247,2,375921.65,Reorder Needed
+ORD00331,20-01-2025,FastTrack Corp,Brake Pads,Automotive,WH-North-01,Pune,412,412,3816.24,6,4,127,120,Delivered,0,-2,1572290.88,Optimal
+ORD00332,26-04-2025,BlueDart Suppliers,Cookware Set,Home & Kitchen,WH-North-01,Kolkata,282,160,3566.75,5,4,233,77,Partially Delivered,122,-1,1005823.5,Overstocked
+ORD00333,08-01-2026,TCI Express,Wiper Blades,Automotive,WH-East-01,Kolkata,479,0,3215.8,5,6,183,102,Cancelled,479,1,1540368.2,Optimal
+ORD00334,20-01-2026,Om Logistics,Denim Jeans,Apparel,WH-North-01,Hyderabad,139,116,1695.26,5,5,86,104,Partially Delivered,23,0,235641.14,Reorder Needed
+ORD00335,05-03-2025,Apex Logistics,Electric Kettle,Home & Kitchen,WH-West-03,Chennai,419,419,3313.25,3,1,10,123,Delivered,0,-2,1388251.75,Reorder Needed
+ORD00336,25-01-2025,Delhivery Direct,Smartwatch,Electronics,WH-West-03,Delhi,305,305,5446,14,14,4,127,Delivered,0,0,1661030,Reorder Needed
+ORD00337,04-06-2025,Nexus Global,Almond Pack,FMCG,WH-Central-04,Chennai,343,128,907.04,5,7,316,105,Partially Delivered,215,2,311114.72,Overstocked
+ORD00338,02-03-2025,Nexus Global,Mixer Grinder,Home & Kitchen,WH-West-03,Hyderabad,336,0,1738.82,7,11,209,85,Cancelled,336,4,584243.52,Overstocked
+ORD00339,01-06-2025,TCI Express,Cotton T-Shirt,Apparel,WH-West-03,Hyderabad,377,377,2076.28,8,8,45,125,Delivered,0,0,782757.56,Reorder Needed
+ORD00340,26-02-2025,Delhivery Direct,Air Filter,Automotive,WH-South-02,Delhi,424,0,2497.99,14,13,118,122,In Transit,424,-1,1059147.76,Reorder Needed
+ORD00341,22-08-2025,Delhivery Direct,Cookware Set,Home & Kitchen,WH-North-01,Delhi,441,441,1621.1,3,3,160,126,Delivered,0,0,714905.1,Optimal
+ORD00342,07-08-2025,Apex Logistics,Smartphone,Electronics,WH-North-01,Bengaluru,364,0,12072.94,8,9,137,119,In Transit,364,1,4394550.16,Optimal
+ORD00343,11-01-2026,FastTrack Corp,Wireless Headphones,Electronics,WH-South-02,Delhi,230,157,7924.2,10,10,244,148,Partially Delivered,73,0,1822566,Optimal
+ORD00344,14-02-2026,BlueDart Suppliers,Almond Pack,FMCG,WH-North-01,Bengaluru,381,381,1058.01,5,4,247,115,Delivered,0,-1,403101.81,Overstocked
+ORD00345,15-02-2026,Delhivery Direct,Air Filter,Automotive,WH-South-02,Lucknow,219,177,3594.57,12,10,66,147,Partially Delivered,42,-2,787210.83,Reorder Needed
+ORD00346,05-09-2025,Om Logistics,Organic Tea,FMCG,WH-West-03,Mumbai,57,57,477.02,8,6,268,126,Delivered,0,-2,27190.14,Overstocked
+ORD00347,28-01-2026,Mahindra Logistics,Air Filter,Automotive,WH-East-01,Jaipur,292,292,3221.79,12,11,127,133,Delivered,0,-1,940762.68,Reorder Needed
+ORD00348,04-09-2025,Om Logistics,Electric Kettle,Home & Kitchen,WH-South-02,Jaipur,481,481,5442.62,3,1,258,60,Delivered,0,-2,2617900.22,Overstocked
+ORD00349,29-08-2025,Nexus Global,Protein Powder,FMCG,WH-West-03,Pune,148,148,563.62,7,5,193,110,Delivered,0,-2,83415.76,Optimal
+ORD00350,26-07-2025,Delhivery Direct,Cotton T-Shirt,Apparel,WH-West-03,Lucknow,254,254,512.84,10,13,9,103,Delivered,0,3,130261.36,Reorder Needed
+ORD00351,22-02-2025,Apex Logistics,Olive Oil,FMCG,WH-Central-04,Jaipur,25,0,1182.39,12,12,105,111,In Transit,25,0,29559.75,Reorder Needed
+ORD00352,02-12-2025,FastTrack Corp,Detergent Pack,FMCG,WH-North-01,Hyderabad,457,457,718.07,11,14,231,86,Delivered,0,3,328157.99,Overstocked
+ORD00353,28-02-2025,Mahindra Logistics,Tablet,Electronics,WH-North-01,Pune,206,206,15142.05,7,11,54,129,Delivered,0,4,3119262.3,Reorder Needed
+ORD00354,24-01-2025,BlueDart Suppliers,Running Shoes,Apparel,WH-West-03,Delhi,155,0,1480.08,6,5,110,90,Cancelled,155,-1,229412.4,Optimal
+ORD00355,23-08-2025,FastTrack Corp,Hoodie,Apparel,WH-North-01,Kolkata,48,28,2064.26,13,12,301,98,Partially Delivered,20,-1,99084.48,Overstocked
+ORD00356,16-09-2025,Apex Logistics,Running Shoes,Apparel,WH-Central-04,Mumbai,308,0,2080.32,12,15,90,139,In Transit,308,3,640738.56,Reorder Needed
+ORD00357,21-12-2025,BlueDart Suppliers,Brake Pads,Automotive,WH-North-01,Kolkata,361,0,2862.24,8,12,311,93,In Transit,361,4,1033268.64,Overstocked
+ORD00358,21-12-2025,Om Logistics,Formal Shirt,Apparel,WH-East-01,Chennai,256,256,1838.87,5,7,262,153,Delivered,0,2,470750.72,Optimal
+ORD00359,03-06-2025,TCI Express,Car Battery,Automotive,WH-South-02,Hyderabad,132,0,2959.09,7,8,91,56,In Transit,132,1,390599.88,Optimal
+ORD00360,15-09-2025,FastTrack Corp,Air Filter,Automotive,WH-North-01,Pune,312,312,2369.52,12,14,273,154,Delivered,0,2,739290.24,Optimal
+ORD00361,27-05-2025,TCI Express,Organic Tea,FMCG,WH-North-01,Mumbai,220,220,331.66,13,11,82,136,Delivered,0,-2,72965.2,Reorder Needed
+ORD00362,27-05-2025,Apex Logistics,Air Fryer,Home & Kitchen,WH-East-01,Hyderabad,410,410,3343.51,8,11,287,151,Delivered,0,3,1370839.1,Optimal
+ORD00363,25-04-2025,Mahindra Logistics,LED Headlights,Automotive,WH-Central-04,Chennai,379,379,3124.42,9,11,160,140,Delivered,0,2,1184155.18,Optimal
+ORD00364,10-10-2025,Zenith Supply,Smartphone,Electronics,WH-South-02,Lucknow,469,0,14319.54,10,10,188,130,In Transit,469,0,6715864.26,Optimal
+ORD00365,22-01-2026,Mahindra Logistics,Wiper Blades,Automotive,WH-South-02,Chennai,254,254,1127.45,13,12,263,62,Delivered,0,-1,286372.3,Overstocked
+ORD00366,03-03-2025,Om Logistics,Organic Tea,FMCG,WH-East-01,Jaipur,160,160,312.58,12,12,79,99,Delivered,0,0,50012.8,Reorder Needed
+ORD00367,21-01-2025,Apex Logistics,Formal Shirt,Apparel,WH-Central-04,Chennai,276,276,1811.33,11,12,162,130,Delivered,0,1,499927.08,Optimal
+ORD00368,27-09-2025,TCI Express,Denim Jeans,Apparel,WH-North-01,Jaipur,106,106,1119.47,11,13,109,68,Delivered,0,2,118663.82,Optimal
+ORD00369,06-12-2025,FastTrack Corp,Cookware Set,Home & Kitchen,WH-East-01,Hyderabad,410,289,3705.92,10,14,58,41,Partially Delivered,121,4,1519427.2,Optimal
+ORD00370,09-12-2025,Mahindra Logistics,Water Purifier,Home & Kitchen,WH-Central-04,Lucknow,149,149,5306.82,13,14,58,141,Delivered,0,1,790716.18,Reorder Needed
+ORD00371,17-07-2025,Zenith Supply,Induction Cooktop,Home & Kitchen,WH-North-01,Jaipur,445,445,4421.32,11,15,151,45,Delivered,0,4,1967487.4,Overstocked
+ORD00372,30-11-2025,TCI Express,Formal Shirt,Apparel,WH-North-01,Delhi,110,110,2147.51,11,15,107,48,Delivered,0,4,236226.1,Overstocked
+ORD00373,10-12-2025,Om Logistics,Hoodie,Apparel,WH-North-01,Hyderabad,300,300,1883.19,14,16,36,160,Delivered,0,2,564957,Reorder Needed
+ORD00374,18-01-2026,Delhivery Direct,Cotton T-Shirt,Apparel,WH-East-01,Mumbai,69,69,485.51,5,5,116,113,Delivered,0,0,33500.19,Optimal
+ORD00375,13-05-2025,Delhivery Direct,Olive Oil,FMCG,WH-West-03,Kolkata,186,186,171.11,13,12,316,122,Delivered,0,-1,31826.46,Overstocked
+ORD00376,02-02-2025,Nexus Global,Engine Oil,Automotive,WH-East-01,Jaipur,79,79,1588.33,13,13,224,76,Delivered,0,0,125478.07,Overstocked
+ORD00377,15-07-2025,Apex Logistics,Almond Pack,FMCG,WH-West-03,Bengaluru,298,228,424.83,14,16,73,77,Partially Delivered,70,2,126599.34,Reorder Needed
+ORD00378,02-06-2025,TCI Express,Mixer Grinder,Home & Kitchen,WH-Central-04,Bengaluru,88,88,996.33,12,14,156,50,Delivered,0,2,87677.04,Overstocked
+ORD00379,18-04-2025,Om Logistics,Air Fryer,Home & Kitchen,WH-Central-04,Bengaluru,107,107,1664.77,12,12,290,63,Delivered,0,0,178130.39,Overstocked
+ORD00380,28-01-2025,TCI Express,LED Headlights,Automotive,WH-North-01,Chennai,368,234,676.19,4,4,182,82,Partially Delivered,134,0,248837.92,Overstocked
+ORD00381,07-03-2025,Zenith Supply,Cotton T-Shirt,Apparel,WH-Central-04,Delhi,485,485,707.97,10,13,156,124,Delivered,0,3,343365.45,Optimal
+ORD00382,22-12-2025,FastTrack Corp,Brake Pads,Automotive,WH-East-01,Kolkata,111,111,419.81,6,6,223,122,Delivered,0,0,46598.91,Optimal
+ORD00383,22-05-2025,FastTrack Corp,Air Fryer,Home & Kitchen,WH-West-03,Ahmedabad,253,253,2486.09,7,10,310,62,Delivered,0,3,628980.77,Overstocked
+ORD00384,11-02-2025,TCI Express,Air Fryer,Home & Kitchen,WH-South-02,Chennai,400,0,4965.78,4,3,259,148,In Transit,400,-1,1986312,Optimal
+ORD00385,20-11-2025,Om Logistics,Bluetooth Speaker,Electronics,WH-Central-04,Hyderabad,489,0,1815.83,7,11,241,109,In Transit,489,4,887940.87,Overstocked
+ORD00386,01-12-2025,Om Logistics,Formal Shirt,Apparel,WH-South-02,Lucknow,400,400,1935.75,5,8,203,51,Delivered,0,3,774300,Overstocked
+ORD00387,06-07-2025,Mahindra Logistics,Engine Oil,Automotive,WH-Central-04,Bengaluru,412,412,2507.96,10,10,74,112,Delivered,0,0,1033279.52,Reorder Needed
+ORD00388,12-01-2026,Apex Logistics,Detergent Pack,FMCG,WH-South-02,Ahmedabad,143,143,228.58,8,8,265,66,Delivered,0,0,32686.94,Overstocked
+ORD00389,10-02-2026,Delhivery Direct,Water Purifier,Home & Kitchen,WH-West-03,Mumbai,45,45,5408.77,8,7,140,106,Delivered,0,-1,243394.65,Optimal
+ORD00390,15-01-2026,TCI Express,Induction Cooktop,Home & Kitchen,WH-Central-04,Bengaluru,217,217,3872.27,8,7,114,88,Delivered,0,-1,840282.59,Optimal
+ORD00391,22-09-2025,FastTrack Corp,Detergent Pack,FMCG,WH-West-03,Ahmedabad,479,479,905.26,11,11,39,69,Delivered,0,0,433619.54,Reorder Needed
+ORD00392,21-09-2025,BlueDart Suppliers,Air Fryer,Home & Kitchen,WH-South-02,Bengaluru,210,210,3629.5,4,4,58,82,Delivered,0,0,762195,Reorder Needed
+ORD00393,04-09-2025,Mahindra Logistics,Olive Oil,FMCG,WH-Central-04,Bengaluru,356,356,1191.71,3,3,303,113,Delivered,0,0,424248.76,Overstocked
+ORD00394,24-03-2025,TCI Express,Hoodie,Apparel,WH-North-01,Lucknow,100,100,453.44,7,7,306,91,Delivered,0,0,45344,Overstocked
+ORD00395,16-10-2025,Zenith Supply,Tablet,Electronics,WH-North-01,Hyderabad,254,254,11389.64,10,13,210,146,Delivered,0,3,2892968.56,Optimal
+ORD00396,04-11-2025,BlueDart Suppliers,Track Pants,Apparel,WH-Central-04,Jaipur,160,0,660.29,13,14,302,116,In Transit,160,1,105646.4,Overstocked
+ORD00397,05-02-2025,Om Logistics,Running Shoes,Apparel,WH-South-02,Delhi,33,28,724.34,11,13,90,52,Partially Delivered,5,2,23903.22,Optimal
+ORD00398,01-09-2025,Apex Logistics,Wiper Blades,Automotive,WH-Central-04,Jaipur,410,0,881.82,10,10,0,109,In Transit,410,0,361546.2,Out of Stock
+ORD00399,01-02-2026,Om Logistics,Shampoo Bottle,FMCG,WH-East-01,Mumbai,382,211,812.27,6,9,301,84,Partially Delivered,171,3,310287.14,Overstocked
+ORD00400,16-02-2026,Om Logistics,Engine Oil,Automotive,WH-South-02,Chennai,269,269,3540.02,4,4,209,109,Delivered,0,0,952265.38,Optimal
+ORD00401,12-05-2025,Apex Logistics,Cotton T-Shirt,Apparel,WH-Central-04,Jaipur,85,85,1311.56,9,9,209,80,Delivered,0,0,111482.6,Overstocked
+ORD00402,05-07-2025,Om Logistics,Laptop,Electronics,WH-Central-04,Chennai,158,158,15563.61,9,10,203,127,Delivered,0,1,2459050.38,Optimal
+ORD00403,22-01-2026,TCI Express,Running Shoes,Apparel,WH-Central-04,Ahmedabad,116,116,1034.89,11,14,295,79,Delivered,0,3,120047.24,Overstocked
+ORD00404,26-06-2025,BlueDart Suppliers,Almond Pack,FMCG,WH-North-01,Hyderabad,253,253,1128.89,5,4,173,91,Delivered,0,-1,285609.17,Optimal
+ORD00405,15-02-2026,Apex Logistics,Wiper Blades,Automotive,WH-South-02,Kolkata,350,350,421.69,4,4,222,116,Delivered,0,0,147591.5,Optimal
+ORD00406,15-02-2025,Mahindra Logistics,Wireless Headphones,Electronics,WH-East-01,Delhi,336,336,1834.29,9,11,146,106,Delivered,0,2,616321.44,Optimal
+ORD00407,31-12-2025,BlueDart Suppliers,Engine Oil,Automotive,WH-West-03,Ahmedabad,30,30,1227,13,17,306,44,Delivered,0,4,36810,Overstocked
+ORD00408,19-09-2025,Mahindra Logistics,Air Filter,Automotive,WH-Central-04,Bengaluru,370,0,547.85,6,4,141,51,Cancelled,370,-2,202704.5,Overstocked
+ORD00409,04-02-2026,Om Logistics,Detergent Pack,FMCG,WH-West-03,Lucknow,127,0,797.18,14,13,145,110,In Transit,127,-1,101241.86,Optimal
+ORD00410,07-01-2026,FastTrack Corp,Wiper Blades,Automotive,WH-East-01,Chennai,140,0,2886.09,6,9,2,113,In Transit,140,3,404052.6,Reorder Needed
+ORD00411,14-05-2025,TCI Express,Running Shoes,Apparel,WH-North-01,Jaipur,62,34,1280.86,8,7,275,152,Partially Delivered,28,-1,79413.32,Optimal
+ORD00412,21-02-2026,Delhivery Direct,Car Battery,Automotive,WH-West-03,Lucknow,272,272,3556.87,8,11,300,154,Delivered,0,3,967468.64,Optimal
+ORD00413,15-01-2025,Zenith Supply,Organic Tea,FMCG,WH-North-01,Kolkata,349,209,1135.82,6,6,264,85,Partially Delivered,140,0,396401.18,Overstocked
+ORD00414,02-10-2025,Zenith Supply,Tablet,Electronics,WH-South-02,Chennai,72,72,7902.03,14,15,91,159,Delivered,0,1,568946.16,Reorder Needed
+ORD00415,01-09-2025,Mahindra Logistics,Cookware Set,Home & Kitchen,WH-Central-04,Chennai,118,118,5251.46,13,13,120,65,Delivered,0,0,619672.28,Optimal
+ORD00416,12-01-2026,Mahindra Logistics,Formal Shirt,Apparel,WH-South-02,Hyderabad,452,452,811.94,12,13,61,53,Delivered,0,1,366996.88,Optimal
+ORD00417,10-02-2025,Apex Logistics,Shampoo Bottle,FMCG,WH-Central-04,Mumbai,459,459,752.87,12,13,294,152,Delivered,0,1,345567.33,Optimal
+ORD00418,21-05-2025,TCI Express,Protein Powder,FMCG,WH-East-01,Kolkata,138,138,1087.71,5,3,244,94,Delivered,0,-2,150103.98,Overstocked
+ORD00419,04-10-2025,FastTrack Corp,Bluetooth Speaker,Electronics,WH-West-03,Bengaluru,259,259,17605.32,14,18,4,128,Delivered,0,4,4559777.88,Reorder Needed
+ORD00420,07-01-2025,Nexus Global,Running Shoes,Apparel,WH-East-01,Pune,338,338,1944.41,5,9,241,74,Delivered,0,4,657210.58,Overstocked
+ORD00421,10-11-2025,BlueDart Suppliers,Cookware Set,Home & Kitchen,WH-West-03,Kolkata,132,74,2769.74,8,9,92,97,Partially Delivered,58,1,365605.68,Reorder Needed
+ORD00422,20-10-2025,Mahindra Logistics,Track Pants,Apparel,WH-North-01,Chennai,436,436,786.24,9,11,76,142,Delivered,0,2,342800.64,Reorder Needed
+ORD00423,31-08-2025,Om Logistics,Laptop,Electronics,WH-West-03,Bengaluru,482,393,15469.75,11,15,128,78,Partially Delivered,89,4,7456419.5,Optimal
+ORD00424,15-10-2025,Om Logistics,Engine Oil,Automotive,WH-North-01,Bengaluru,55,19,1283.42,7,10,171,97,Partially Delivered,36,3,70588.1,Optimal
+ORD00425,14-05-2025,TCI Express,Cookware Set,Home & Kitchen,WH-Central-04,Chennai,201,137,893.23,4,5,295,65,Partially Delivered,64,1,179539.23,Overstocked
+ORD00426,22-10-2025,Zenith Supply,Brake Pads,Automotive,WH-East-01,Pune,369,0,2492.82,14,17,314,88,In Transit,369,3,919850.58,Overstocked
+ORD00427,27-05-2025,BlueDart Suppliers,Almond Pack,FMCG,WH-South-02,Pune,240,90,939.09,12,14,82,50,Partially Delivered,150,2,225381.6,Optimal
+ORD00428,25-06-2025,FastTrack Corp,Formal Shirt,Apparel,WH-East-01,Chennai,334,192,1542.59,7,10,300,135,Partially Delivered,142,3,515225.06,Overstocked
+ORD00429,24-09-2025,BlueDart Suppliers,Olive Oil,FMCG,WH-South-02,Mumbai,89,0,1059.72,13,13,40,129,Cancelled,89,0,94315.08,Reorder Needed
+ORD00430,18-04-2025,Nexus Global,Running Shoes,Apparel,WH-North-01,Delhi,474,184,1225.39,3,1,134,53,Partially Delivered,290,-2,580834.86,Overstocked
+ORD00431,13-11-2025,Om Logistics,Cotton T-Shirt,Apparel,WH-East-01,Hyderabad,151,151,1714.55,10,10,87,147,Delivered,0,0,258897.05,Reorder Needed
+ORD00432,15-01-2025,FastTrack Corp,Tablet,Electronics,WH-East-01,Ahmedabad,264,264,17579.69,11,11,276,57,Delivered,0,0,4641038.16,Overstocked
+ORD00433,01-04-2025,Delhivery Direct,Wiper Blades,Automotive,WH-Central-04,Kolkata,293,0,3023.12,11,11,276,101,In Transit,293,0,885774.16,Overstocked
+ORD00434,27-04-2025,Zenith Supply,Smartwatch,Electronics,WH-East-01,Kolkata,158,158,3816.05,3,1,69,137,Delivered,0,-2,602935.9,Reorder Needed
+ORD00435,26-06-2025,TCI Express,Water Purifier,Home & Kitchen,WH-North-01,Ahmedabad,411,275,3042.22,3,5,3,69,Partially Delivered,136,2,1250352.42,Reorder Needed
+ORD00436,08-10-2025,Om Logistics,Air Fryer,Home & Kitchen,WH-Central-04,Kolkata,227,96,1974.51,14,16,40,73,Partially Delivered,131,2,448213.77,Reorder Needed
+ORD00437,05-08-2025,Zenith Supply,Track Pants,Apparel,WH-East-01,Jaipur,439,439,847.32,6,5,56,77,Delivered,0,-1,371973.48,Reorder Needed
+ORD00438,23-11-2025,Delhivery Direct,Shampoo Bottle,FMCG,WH-East-01,Lucknow,276,276,384.74,3,3,11,108,Delivered,0,0,106188.24,Reorder Needed
+ORD00439,06-04-2025,Zenith Supply,Wireless Headphones,Electronics,WH-South-02,Ahmedabad,397,397,1337.83,4,4,175,67,Delivered,0,0,531118.51,Overstocked
+ORD00440,04-08-2025,FastTrack Corp,Water Purifier,Home & Kitchen,WH-West-03,Mumbai,194,194,1177.05,5,3,36,90,Delivered,0,-2,228347.7,Reorder Needed
+ORD00441,06-10-2025,Mahindra Logistics,Protein Powder,FMCG,WH-East-01,Kolkata,449,449,165.77,14,14,126,96,Delivered,0,0,74430.73,Optimal
+ORD00442,13-01-2026,Delhivery Direct,Laptop,Electronics,WH-North-01,Jaipur,365,365,17699.55,10,12,165,79,Delivered,0,2,6460335.75,Overstocked
+ORD00443,23-03-2025,TCI Express,Tablet,Electronics,WH-Central-04,Delhi,154,154,9284.66,7,7,111,46,Delivered,0,0,1429837.64,Overstocked
+ORD00444,27-02-2025,Om Logistics,Hoodie,Apparel,WH-East-01,Mumbai,110,110,1819.62,12,11,4,71,Delivered,0,-1,200158.2,Reorder Needed
+ORD00445,22-01-2025,Delhivery Direct,Air Filter,Automotive,WH-Central-04,Bengaluru,215,215,3560.27,6,6,316,127,Delivered,0,0,765458.05,Overstocked
+ORD00446,23-06-2025,FastTrack Corp,Smartphone,Electronics,WH-South-02,Jaipur,430,430,3004.18,10,10,177,111,Delivered,0,0,1291797.4,Optimal
+ORD00447,17-02-2026,Mahindra Logistics,Almond Pack,FMCG,WH-North-01,Kolkata,208,208,1055.5,7,5,286,96,Delivered,0,-2,219544,Overstocked
+ORD00448,31-05-2025,Delhivery Direct,Air Filter,Automotive,WH-South-02,Lucknow,120,120,2628.84,8,11,306,146,Delivered,0,3,315460.8,Overstocked
+ORD00449,11-10-2025,TCI Express,Cotton T-Shirt,Apparel,WH-South-02,Ahmedabad,176,176,1865.92,11,12,259,139,Delivered,0,1,328401.92,Optimal
+ORD00450,14-07-2025,FastTrack Corp,Cotton T-Shirt,Apparel,WH-Central-04,Hyderabad,189,80,1683.86,13,17,254,107,Partially Delivered,109,4,318249.54,Overstocked
+ORD00451,28-01-2026,Zenith Supply,Brake Pads,Automotive,WH-East-01,Kolkata,353,353,1720.3,4,8,66,45,Delivered,0,4,607265.9,Optimal
+ORD00452,02-04-2025,Nexus Global,Laptop,Electronics,WH-West-03,Hyderabad,75,75,1734.53,13,15,319,107,Delivered,0,2,130089.75,Overstocked
+ORD00453,26-12-2025,Apex Logistics,Car Battery,Automotive,WH-East-01,Hyderabad,335,335,3343.17,3,3,40,158,Delivered,0,0,1119961.95,Reorder Needed
+ORD00454,28-08-2025,TCI Express,Wireless Headphones,Electronics,WH-West-03,Pune,431,431,13101.69,12,12,36,133,Delivered,0,0,5646828.39,Reorder Needed
+ORD00455,05-06-2025,TCI Express,Laptop,Electronics,WH-North-01,Delhi,396,396,5081.1,9,9,127,124,Delivered,0,0,2012115.6,Optimal
+ORD00456,19-10-2025,TCI Express,Track Pants,Apparel,WH-West-03,Delhi,417,417,1531.45,8,11,53,94,Delivered,0,3,638614.65,Reorder Needed
+ORD00457,27-03-2025,Om Logistics,Track Pants,Apparel,WH-Central-04,Pune,361,0,642.63,12,15,161,155,Cancelled,361,3,231989.43,Optimal
+ORD00458,09-10-2025,Om Logistics,Cookware Set,Home & Kitchen,WH-West-03,Pune,336,336,1931.4,11,11,130,110,Delivered,0,0,648950.4,Optimal
+ORD00459,04-07-2025,Om Logistics,Olive Oil,FMCG,WH-North-01,Mumbai,170,0,894.7,11,11,3,78,Cancelled,170,0,152099,Reorder Needed
+ORD00460,03-06-2025,FastTrack Corp,Denim Jeans,Apparel,WH-North-01,Chennai,495,495,1374.28,11,11,182,98,Delivered,0,0,680268.6,Optimal
+ORD00461,21-03-2025,FastTrack Corp,Formal Shirt,Apparel,WH-Central-04,Hyderabad,144,144,824.05,7,6,111,112,Delivered,0,-1,118663.2,Reorder Needed
+ORD00462,11-01-2026,FastTrack Corp,Tablet,Electronics,WH-West-03,Bengaluru,274,274,15071.85,14,13,19,78,Delivered,0,-1,4129686.9,Reorder Needed
+ORD00463,10-01-2026,Nexus Global,LED Headlights,Automotive,WH-North-01,Pune,203,0,4007.15,9,11,116,55,Cancelled,203,2,813451.45,Overstocked
+ORD00464,18-01-2026,Om Logistics,Engine Oil,Automotive,WH-North-01,Chennai,293,293,568.85,11,11,113,129,Delivered,0,0,166673.05,Reorder Needed
+ORD00465,20-03-2025,Om Logistics,Tablet,Electronics,WH-West-03,Lucknow,319,319,9679.45,6,8,75,90,Delivered,0,2,3087744.55,Reorder Needed
+ORD00466,09-03-2025,Delhivery Direct,Mixer Grinder,Home & Kitchen,WH-Central-04,Mumbai,305,305,2676.2,4,6,66,139,Delivered,0,2,816241,Reorder Needed
+ORD00467,26-01-2026,TCI Express,Running Shoes,Apparel,WH-South-02,Ahmedabad,227,227,1556.66,6,10,268,134,Delivered,0,4,353361.82,Optimal
+ORD00468,07-05-2025,Zenith Supply,Cotton T-Shirt,Apparel,WH-West-03,Pune,375,375,2059.66,4,3,187,94,Delivered,0,-1,772372.5,Optimal
+ORD00469,28-06-2025,FastTrack Corp,Formal Shirt,Apparel,WH-Central-04,Mumbai,419,419,913.91,8,11,22,96,Delivered,0,3,382928.29,Reorder Needed
+ORD00470,23-02-2026,FastTrack Corp,Denim Jeans,Apparel,WH-South-02,Delhi,82,42,1718.23,6,6,175,41,Partially Delivered,40,0,140894.86,Overstocked
+ORD00471,22-12-2025,Delhivery Direct,Wireless Headphones,Electronics,WH-West-03,Mumbai,194,194,4711.36,11,11,132,106,Delivered,0,0,914003.84,Optimal
+ORD00472,08-10-2025,BlueDart Suppliers,Shampoo Bottle,FMCG,WH-North-01,Kolkata,323,323,1282.55,11,9,145,47,Delivered,0,-2,414263.65,Overstocked
+ORD00473,13-04-2025,Apex Logistics,Car Battery,Automotive,WH-West-03,Mumbai,59,18,1993.45,7,8,197,77,Partially Delivered,41,1,117613.55,Overstocked
+ORD00474,29-04-2025,Nexus Global,Shampoo Bottle,FMCG,WH-East-01,Ahmedabad,468,468,896.38,4,4,287,98,Delivered,0,0,419505.84,Overstocked
+ORD00475,31-12-2025,Mahindra Logistics,Smartphone,Electronics,WH-Central-04,Chennai,195,195,9430.87,14,14,180,127,Delivered,0,0,1839019.65,Optimal
+ORD00476,01-07-2025,TCI Express,Air Fryer,Home & Kitchen,WH-East-01,Mumbai,345,0,2011.09,9,7,115,75,Cancelled,345,-2,693826.05,Optimal
+ORD00477,19-03-2025,BlueDart Suppliers,Water Purifier,Home & Kitchen,WH-North-01,Kolkata,291,291,5314.85,12,12,78,113,Delivered,0,0,1546621.35,Reorder Needed
+ORD00478,07-08-2025,FastTrack Corp,Induction Cooktop,Home & Kitchen,WH-West-03,Jaipur,92,92,1771.76,5,9,70,65,Delivered,0,4,163001.92,Optimal
+ORD00479,08-06-2025,Om Logistics,Brake Pads,Automotive,WH-South-02,Lucknow,494,494,1048,4,8,60,132,Delivered,0,4,517712,Reorder Needed
+ORD00480,05-04-2025,Apex Logistics,Air Fryer,Home & Kitchen,WH-East-01,Kolkata,235,235,2225.74,14,14,54,64,Delivered,0,0,523048.9,Reorder Needed
+ORD00481,09-03-2025,Zenith Supply,Cotton T-Shirt,Apparel,WH-Central-04,Lucknow,338,338,777.19,6,6,40,85,Delivered,0,0,262690.22,Reorder Needed
+ORD00482,19-12-2025,TCI Express,Protein Powder,FMCG,WH-Central-04,Ahmedabad,389,389,961.96,5,7,83,57,Delivered,0,2,374202.44,Optimal
+ORD00483,09-04-2025,Om Logistics,Cotton T-Shirt,Apparel,WH-North-01,Chennai,236,86,761.73,13,13,224,62,Partially Delivered,150,0,179768.28,Overstocked
+ORD00484,12-11-2025,FastTrack Corp,Almond Pack,FMCG,WH-West-03,Hyderabad,243,172,656.08,3,5,292,118,Partially Delivered,71,2,159427.44,Overstocked
+ORD00485,01-11-2025,Apex Logistics,Wiper Blades,Automotive,WH-Central-04,Delhi,256,256,2273.29,3,3,20,90,Delivered,0,0,581962.24,Reorder Needed
+ORD00486,13-10-2025,Apex Logistics,Shampoo Bottle,FMCG,WH-South-02,Chennai,250,250,647.55,7,7,150,94,Delivered,0,0,161887.5,Optimal
+ORD00487,10-11-2025,TCI Express,Tablet,Electronics,WH-South-02,Ahmedabad,449,449,12054.51,4,8,299,139,Delivered,0,4,5412474.99,Overstocked
+ORD00488,23-12-2025,Om Logistics,Brake Pads,Automotive,WH-West-03,Pune,255,0,502.14,10,10,128,51,In Transit,255,0,128045.7,Overstocked
+ORD00489,15-06-2025,Nexus Global,Hoodie,Apparel,WH-North-01,Delhi,386,386,1181.39,8,7,261,89,Delivered,0,-1,456016.54,Overstocked
+ORD00490,10-11-2025,TCI Express,Running Shoes,Apparel,WH-West-03,Mumbai,418,418,666.14,8,8,91,58,Delivered,0,0,278446.52,Optimal
+ORD00491,29-01-2026,Zenith Supply,Smartwatch,Electronics,WH-East-01,Ahmedabad,172,0,11724.41,4,4,318,40,Cancelled,172,0,2016598.52,Overstocked
+ORD00492,27-01-2026,Delhivery Direct,Mixer Grinder,Home & Kitchen,WH-West-03,Ahmedabad,303,303,4595.04,12,15,243,115,Delivered,0,3,1392297.12,Overstocked
+ORD00493,21-08-2025,Nexus Global,Olive Oil,FMCG,WH-Central-04,Lucknow,28,28,455.89,11,11,106,111,Delivered,0,0,12764.92,Reorder Needed
+ORD00494,26-01-2025,Apex Logistics,Denim Jeans,Apparel,WH-East-01,Mumbai,99,99,1929.58,13,13,25,51,Delivered,0,0,191028.42,Reorder Needed
+ORD00495,25-02-2025,BlueDart Suppliers,Protein Powder,FMCG,WH-East-01,Lucknow,363,363,1014.39,12,16,296,98,Delivered,0,4,368223.57,Overstocked
+ORD00496,04-07-2025,Zenith Supply,Smartphone,Electronics,WH-East-01,Pune,484,178,7566.18,4,6,241,77,Partially Delivered,306,2,3662031.12,Overstocked
+ORD00497,10-03-2025,Zenith Supply,Tablet,Electronics,WH-East-01,Jaipur,236,236,10014.06,14,14,292,53,Delivered,0,0,2363318.16,Overstocked
+ORD00498,09-01-2026,Delhivery Direct,Engine Oil,Automotive,WH-Central-04,Chennai,243,243,2896.26,8,8,181,119,Delivered,0,0,703791.18,Optimal
+ORD00499,08-03-2025,Delhivery Direct,Wiper Blades,Automotive,WH-Central-04,Ahmedabad,277,277,3712.72,12,12,0,64,Delivered,0,0,1028423.44,Out of Stock
+ORD00500,02-03-2025,Nexus Global,Smartwatch,Electronics,WH-South-02,Lucknow,237,237,8155.89,8,9,108,121,Delivered,0,1,1932945.93,Reorder Needed
+ORD00501,06-01-2025,Zenith Supply,Hoodie,Apparel,WH-East-01,Delhi,182,68,905.53,11,12,170,127,Partially Delivered,114,1,164806.46,Optimal
+ORD00502,24-06-2025,Apex Logistics,Almond Pack,FMCG,WH-South-02,Hyderabad,194,0,1192.28,13,16,18,142,In Transit,194,3,231302.32,Reorder Needed
+ORD00503,27-11-2025,BlueDart Suppliers,Running Shoes,Apparel,WH-West-03,Jaipur,483,297,969.95,9,7,161,112,Partially Delivered,186,-2,468485.85,Optimal
+ORD00504,12-10-2025,Mahindra Logistics,Engine Oil,Automotive,WH-Central-04,Pune,434,0,4156.36,8,7,15,75,Cancelled,434,-1,1803860.24,Reorder Needed
+ORD00505,23-06-2025,TCI Express,Almond Pack,FMCG,WH-South-02,Lucknow,335,178,636.96,12,11,161,130,Partially Delivered,157,-1,213381.6,Optimal
+ORD00506,30-12-2025,Om Logistics,Wireless Headphones,Electronics,WH-North-01,Ahmedabad,474,474,5192.39,10,10,89,78,Delivered,0,0,2461192.86,Optimal
+ORD00507,27-02-2025,Mahindra Logistics,Mixer Grinder,Home & Kitchen,WH-North-01,Ahmedabad,284,284,917.19,10,14,247,83,Delivered,0,4,260481.96,Overstocked
+ORD00508,11-01-2026,FastTrack Corp,Car Battery,Automotive,WH-South-02,Delhi,445,445,4427.32,11,11,235,44,Delivered,0,0,1970157.4,Overstocked
+ORD00509,18-07-2025,Apex Logistics,Engine Oil,Automotive,WH-East-01,Mumbai,376,376,3877.31,4,5,52,45,Delivered,0,1,1457868.56,Optimal
+ORD00510,24-09-2025,Zenith Supply,Mixer Grinder,Home & Kitchen,WH-South-02,Pune,127,127,1704.96,7,11,60,96,Delivered,0,4,216529.92,Reorder Needed
+ORD00511,20-05-2025,Zenith Supply,Denim Jeans,Apparel,WH-North-01,Mumbai,343,343,1385.31,4,4,163,110,Delivered,0,0,475161.33,Optimal
+ORD00512,19-05-2025,Zenith Supply,Hoodie,Apparel,WH-Central-04,Hyderabad,112,112,481.8,12,13,66,46,Delivered,0,1,53961.6,Optimal
+ORD00513,15-01-2025,Apex Logistics,Almond Pack,FMCG,WH-North-01,Kolkata,52,52,257.65,9,9,303,154,Delivered,0,0,13397.8,Optimal
+ORD00514,19-11-2025,FastTrack Corp,Shampoo Bottle,FMCG,WH-East-01,Pune,443,443,397.68,13,17,238,158,Delivered,0,4,176172.24,Optimal
+ORD00515,18-10-2025,Delhivery Direct,Cotton T-Shirt,Apparel,WH-North-01,Ahmedabad,183,183,1616.28,14,17,73,68,Delivered,0,3,295779.24,Optimal
+ORD00516,12-11-2025,Om Logistics,Cookware Set,Home & Kitchen,WH-South-02,Pune,428,428,4845.72,8,11,243,48,Delivered,0,3,2073968.16,Overstocked
+ORD00517,27-02-2025,Delhivery Direct,Water Purifier,Home & Kitchen,WH-South-02,Chennai,418,418,2438.49,12,12,54,91,Delivered,0,0,1019288.82,Reorder Needed
+ORD00518,16-06-2025,Nexus Global,Air Filter,Automotive,WH-East-01,Jaipur,261,261,2043.35,9,9,81,110,Delivered,0,0,533314.35,Reorder Needed
+ORD00519,04-09-2025,FastTrack Corp,Organic Tea,FMCG,WH-South-02,Lucknow,245,245,1130.39,9,10,88,70,Delivered,0,1,276945.55,Optimal
+ORD00520,06-12-2025,Delhivery Direct,Tablet,Electronics,WH-North-01,Lucknow,330,144,8976.86,11,10,207,79,Partially Delivered,186,-1,2962363.8,Overstocked
+ORD00521,05-02-2025,Om Logistics,Engine Oil,Automotive,WH-East-01,Ahmedabad,355,254,3106.68,4,4,0,155,Partially Delivered,101,0,1102871.4,Out of Stock
+ORD00522,23-01-2026,BlueDart Suppliers,Hoodie,Apparel,WH-West-03,Jaipur,174,174,1071.47,12,15,162,127,Delivered,0,3,186435.78,Optimal
+ORD00523,03-06-2025,Zenith Supply,Air Filter,Automotive,WH-West-03,Pune,70,70,2789.18,12,16,150,56,Delivered,0,4,195242.6,Overstocked
+ORD00524,01-02-2025,Apex Logistics,Induction Cooktop,Home & Kitchen,WH-North-01,Jaipur,445,193,5399.87,4,4,302,95,Partially Delivered,252,0,2402942.15,Overstocked
+ORD00525,21-07-2025,Om Logistics,Electric Kettle,Home & Kitchen,WH-West-03,Kolkata,247,247,3362.06,13,13,284,64,Delivered,0,0,830428.82,Overstocked
+ORD00526,16-07-2025,BlueDart Suppliers,Water Purifier,Home & Kitchen,WH-East-01,Bengaluru,93,93,854.53,13,11,249,153,Delivered,0,-2,79471.29,Optimal
+ORD00527,03-12-2025,Nexus Global,Protein Powder,FMCG,WH-South-02,Kolkata,465,465,720.04,14,16,260,98,Delivered,0,2,334818.6,Overstocked
+ORD00528,06-08-2025,Om Logistics,LED Headlights,Automotive,WH-East-01,Hyderabad,120,66,2141.56,3,6,256,131,Partially Delivered,54,3,256987.2,Optimal
+ORD00529,18-05-2025,FastTrack Corp,Shampoo Bottle,FMCG,WH-North-01,Mumbai,315,315,754.09,8,7,40,128,Delivered,0,-1,237538.35,Reorder Needed
+ORD00530,14-03-2025,Delhivery Direct,Car Battery,Automotive,WH-Central-04,Delhi,292,292,4048.65,4,4,39,134,Delivered,0,0,1182205.8,Reorder Needed
+ORD00531,17-12-2025,Zenith Supply,Wiper Blades,Automotive,WH-Central-04,Mumbai,487,487,1808.54,3,6,240,155,Delivered,0,3,880758.98,Optimal
+ORD00532,21-10-2025,FastTrack Corp,Water Purifier,Home & Kitchen,WH-East-01,Chennai,110,69,966.03,12,12,31,73,Partially Delivered,41,0,106263.3,Reorder Needed
+ORD00533,19-11-2025,BlueDart Suppliers,Shampoo Bottle,FMCG,WH-Central-04,Mumbai,361,361,1387.96,14,12,64,50,Delivered,0,-2,501053.56,Optimal
+ORD00534,16-09-2025,Zenith Supply,Wireless Headphones,Electronics,WH-South-02,Lucknow,168,127,5823.65,7,5,302,62,Partially Delivered,41,-2,978373.2,Overstocked
+ORD00535,14-01-2026,Delhivery Direct,Hoodie,Apparel,WH-East-01,Bengaluru,158,158,1797.68,6,9,16,107,Delivered,0,3,284033.44,Reorder Needed
+ORD00536,25-06-2025,BlueDart Suppliers,Laptop,Electronics,WH-West-03,Kolkata,419,167,7637.21,13,16,295,66,Partially Delivered,252,3,3199990.99,Overstocked
+ORD00537,11-01-2026,Zenith Supply,Mixer Grinder,Home & Kitchen,WH-North-01,Mumbai,110,110,2980.87,10,10,272,136,Delivered,0,0,327895.7,Optimal
+ORD00538,30-04-2025,Om Logistics,Almond Pack,FMCG,WH-West-03,Chennai,99,99,813.05,9,7,229,142,Delivered,0,-2,80491.95,Optimal
+ORD00539,15-07-2025,Apex Logistics,Induction Cooktop,Home & Kitchen,WH-North-01,Jaipur,351,351,2462.99,9,9,50,74,Delivered,0,0,864509.49,Reorder Needed
+ORD00540,11-05-2025,Delhivery Direct,LED Headlights,Automotive,WH-South-02,Lucknow,419,419,1199.2,8,8,4,41,Delivered,0,0,502464.8,Reorder Needed
+ORD00541,04-02-2025,Nexus Global,Smartwatch,Electronics,WH-Central-04,Delhi,375,375,8691.83,6,6,12,44,Delivered,0,0,3259436.25,Reorder Needed
+ORD00542,14-11-2025,Mahindra Logistics,Smartphone,Electronics,WH-Central-04,Delhi,387,387,17290.96,4,4,289,137,Delivered,0,0,6691601.52,Overstocked
+ORD00543,16-02-2026,BlueDart Suppliers,Cotton T-Shirt,Apparel,WH-East-01,Chennai,264,0,1571.88,4,7,218,75,In Transit,264,3,414976.32,Overstocked
+ORD00544,21-12-2025,BlueDart Suppliers,Cookware Set,Home & Kitchen,WH-North-01,Chennai,422,0,1093.22,9,10,135,73,Cancelled,422,1,461338.84,Optimal
+ORD00545,02-04-2025,Delhivery Direct,Organic Tea,FMCG,WH-South-02,Lucknow,226,226,373.05,10,9,220,138,Delivered,0,-1,84309.3,Optimal
+ORD00546,22-04-2025,Nexus Global,Air Filter,Automotive,WH-West-03,Chennai,77,24,542.93,4,4,254,154,Partially Delivered,53,0,41805.61,Optimal
+ORD00547,18-03-2025,Om Logistics,Smartphone,Electronics,WH-East-01,Bengaluru,383,383,6741.16,9,7,251,160,Delivered,0,-2,2581864.28,Optimal
+ORD00548,02-09-2025,Nexus Global,Olive Oil,FMCG,WH-Central-04,Hyderabad,26,26,630.53,14,17,183,108,Delivered,0,3,16393.78,Optimal
+ORD00549,20-06-2025,Apex Logistics,Water Purifier,Home & Kitchen,WH-North-01,Pune,298,163,4810.71,8,7,103,122,Partially Delivered,135,-1,1433591.58,Reorder Needed
+ORD00550,01-04-2025,Om Logistics,Engine Oil,Automotive,WH-South-02,Chennai,381,381,1999.43,4,5,224,153,Delivered,0,1,761782.83,Optimal
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,4,,,,,,,,,,
